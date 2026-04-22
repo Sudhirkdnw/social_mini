@@ -1,0 +1,348 @@
+.admin-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.admin-header {
+  margin-bottom: 30px;
+}
+
+.admin-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.admin-nav {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--bg-glass);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  width: fit-content;
+}
+
+.admin-nav-link {
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.admin-nav-link:hover {
+  color: var(--text-primary);
+}
+
+.admin-nav-link--active {
+  background: var(--bg-glass-hover);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.admin-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.admin-stat-card {
+  padding: 24px;
+  text-align: center;
+}
+
+.stat-card-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.stat-card-value {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.stat-card-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.admin-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.admin-section {
+  padding: 20px;
+}
+
+.admin-section h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.admin-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.admin-list-item:last-child {
+  border-bottom: none;
+}
+
+.admin-list-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.admin-list-meta {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* Admin table styles */
+.admin-table-wrapper {
+  overflow-x: auto;
+  margin-top: 16px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th {
+  text-align: left;
+  padding: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--border);
+}
+
+.admin-table td {
+  padding: 12px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.admin-table tr:hover td {
+  background: var(--bg-glass);
+}
+
+.admin-action-btn {
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+  margin-right: 6px;
+}
+
+.admin-action-btn--danger {
+  background: rgba(237, 73, 86, 0.15);
+  color: var(--danger);
+}
+
+.admin-action-btn--danger:hover {
+  background: rgba(237, 73, 86, 0.3);
+}
+
+.admin-action-btn--primary {
+  background: rgba(0, 149, 246, 0.15);
+  color: #0095f6;
+}
+
+.admin-action-btn--primary:hover {
+  background: rgba(0, 149, 246, 0.3);
+}
+
+.admin-badge {
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.admin-badge--admin { background: rgba(225, 48, 108, 0.2); color: var(--accent); }
+.admin-badge--banned { background: rgba(237, 73, 86, 0.2); color: var(--danger); }
+.admin-badge--active { background: rgba(88, 195, 34, 0.2); color: var(--success); }
+.admin-badge--pending { background: rgba(255, 202, 40, 0.2); color: var(--warning); }
+.admin-badge--resolved { background: rgba(88, 195, 34, 0.2); color: var(--success); }
+
+@media (max-width: 768px) {
+  .admin-sections {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-nav {
+    overflow-x: auto;
+  }
+}
+
+/* Verification cards */
+.verification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.verification-card {
+  padding: 20px;
+}
+
+.verification-info {
+  margin-bottom: 16px;
+}
+
+.verification-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.verification-name {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.verification-label {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  min-width: 100px;
+}
+
+.verification-id-card {
+  position: relative;
+  margin-bottom: 16px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  max-height: 200px;
+}
+
+.verification-id-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
+  transition: opacity var(--transition-fast);
+}
+
+.verification-id-card img:hover {
+  opacity: 0.8;
+}
+
+.verification-view-btn {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.verification-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.verification-approve-btn,
+.verification-reject-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.verification-approve-btn {
+  background: rgba(88, 195, 34, 0.15);
+  color: var(--success);
+}
+
+.verification-approve-btn:hover {
+  background: rgba(88, 195, 34, 0.3);
+  transform: translateY(-1px);
+}
+
+.verification-reject-btn {
+  background: rgba(237, 73, 86, 0.15);
+  color: var(--danger);
+}
+
+.verification-reject-btn:hover {
+  background: rgba(237, 73, 86, 0.3);
+  transform: translateY(-1px);
+}
+
+.verification-reject-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.verification-reject-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* Full image modal */
+.verification-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 40px;
+}
+
+.verification-modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.verification-modal-content img {
+  max-width: 100%;
+  max-height: 85vh;
+  border-radius: var(--radius-lg);
+  object-fit: contain;
+}
+
+.verification-modal-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: white;
+  font-size: 1.5rem;
+  padding: 8px;
+}

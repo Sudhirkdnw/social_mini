@@ -1,0 +1,126 @@
+.create-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.create-card {
+  padding: 32px;
+}
+
+.create-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.create-image-section {
+  width: 100%;
+}
+
+.create-upload-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 48px;
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  color: var(--text-secondary);
+}
+
+.create-upload-area:hover {
+  border-color: var(--accent);
+  background: var(--bg-glass);
+}
+
+.create-upload-icon {
+  font-size: 2.5rem;
+}
+
+.create-preview {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  max-height: 400px;
+}
+
+.create-preview img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.create-remove-img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.create-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.create-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  resize: vertical;
+  min-height: 100px;
+}
+
+.create-textarea::placeholder {
+  color: var(--text-muted);
+}
+
+.create-ai-btns {
+  display: flex;
+  gap: 8px;
+}
+
+.create-ai-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+  color: var(--warning);
+}
+
+.create-ai-btn:hover:not(:disabled) {
+  background: var(--bg-glass-hover);
+  box-shadow: 0 0 12px rgba(255, 202, 40, 0.2);
+}
+
+.create-ai-btn:disabled {
+  opacity: 0.5;
+}

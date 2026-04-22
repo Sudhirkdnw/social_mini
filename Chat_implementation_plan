@@ -1,0 +1,92 @@
+# Real-Time Chat & Group Chat Implementation
+
+Adding DM and group chat functionality using Socket.io for real-time messaging.
+
+## Proposed Changes
+
+### Backend
+
+#### [NEW] `src/models/conversation.model.js`
+- `type`: enum `dm`, `group`
+- `participants`: Array of ObjectId refs to users
+- `name`: String (for group chats)
+- `admin`: ObjectId ref (group creator)
+- `lastMessage`: ObjectId ref to message
+- `timestamps`
+
+#### [NEW] `src/models/message.model.js`
+- `conversation`: ObjectId ref
+- `sender`: ObjectId ref to user
+- `text`: String
+- `readBy`: Array of ObjectId refs
+- `timestamps`
+
+#### [NEW] `src/controllers/chat.controller.js`
+- `getConversations` — list all conversations for current user
+- `getOrCreateDM` — find existing DM or create new one
+- `createGroup` — create a group chat with participants
+- `getMessages` — get paginated messages for a conversation
+- `sendMessage` — send a message (also emits via Socket.io)
+- `addGroupMember` / `removeGroupMember`
+
+#### [NEW] `src/routes/chat.routes.js`
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/chat` | List conversations |
+| POST | `/api/chat/dm/:userId` | Get/create DM |
+| POST | `/api/chat/group` | Create group |
+| GET | `/api/chat/:id/messages` | Get messages |
+| POST | `/api/chat/:id/messages` | Send message |
+| PUT | `/api/chat/:id/members` | Add member |
+| DELETE | `/api/chat/:id/members/:userId` | Remove member |
+
+#### [MODIFY] `server.js`
+- Add Socket.io server alongside Express
+- Handle `connection`, `join-conversation`, `send-message`, `typing` events
+
+#### [MODIFY] `src/app.js`
+- Wire `/api/chat` routes
+
+---
+
+### Frontend
+
+#### [NEW] `client/src/pages/Chat.jsx` + `Chat.css`
+- Left panel: conversation list (DMs + groups)
+- Right panel: active chat with messages
+- New DM / New Group buttons
+- Real-time message updates via Socket.io
+- Typing indicator
+- Message timestamps
+
+#### [NEW] `client/src/components/chat/ConversationList.jsx`
+- Lists all conversations with last message preview
+- Search/filter conversations
+- Unread indicators
+
+#### [NEW] `client/src/components/chat/MessageArea.jsx`
+- Message bubbles (sent vs received styling)
+- Auto-scroll to bottom
+- Typing indicator animation
+
+#### [NEW] `client/src/components/chat/NewGroupModal.jsx`
+- Select participants from followers/following
+- Set group name
+
+#### [MODIFY] Sidebar & MobileNav
+- Add chat/DM link with unread badge
+
+#### Install `socket.io` (backend) and `socket.io-client` (frontend)
+
+---
+
+## Verification Plan
+
+### Automated Tests
+- Start server, verify Socket.io handshake
+- Send message via API, verify it appears in messages list
+
+### Manual Verification
+- Open two browser tabs, send DM between users
+- Create group, add members, send group messages
+- Verify typing indicator and real-time delivery

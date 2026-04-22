@@ -1,0 +1,145 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: var(--sidebar-width);
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 12px;
+  z-index: 100;
+  transition: width var(--transition-base);
+}
+
+.sidebar-logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  padding: 8px 12px;
+  margin-bottom: 24px;
+  display: block;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar-link:hover {
+  background: var(--bg-glass-hover);
+}
+
+.sidebar-link--active {
+  font-weight: 700;
+}
+
+.sidebar-link-icon {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Notification badge — Instagram-style red dot with count */
+.notif-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  background: var(--danger);
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  box-shadow: 0 0 0 2px var(--bg-secondary);
+  animation: badgePop 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes badgePop {
+  0% { transform: scale(0); }
+  60% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.sidebar-link-label {
+  white-space: nowrap;
+}
+
+.sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  background: var(--bg-glass);
+}
+
+.sidebar-username {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1200px) {
+  .sidebar {
+    width: var(--sidebar-collapsed);
+    align-items: center;
+  }
+
+  .sidebar-logo span {
+    display: none;
+  }
+
+  .sidebar-link-label,
+  .sidebar-username {
+    display: none;
+  }
+
+  .sidebar-link {
+    justify-content: center;
+    padding: 14px;
+  }
+
+  .sidebar-user {
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .main-content {
+    margin-left: var(--sidebar-collapsed);
+  }
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}

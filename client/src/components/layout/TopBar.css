@@ -1,0 +1,32 @@
+.topbar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--topbar-height);
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.topbar-logo {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.topbar-action {
+  font-size: 1.4rem;
+  color: var(--text-primary);
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    display: flex;
+  }
+}

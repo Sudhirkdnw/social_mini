@@ -1,0 +1,39 @@
+.feed-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.feed-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.feed-empty {
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.feed-empty h2 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.feed-empty p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.feed-load-more {
+  width: 100%;
+  padding: 12px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.feed-load-more:hover {
+  background: var(--bg-glass-hover);
+}
