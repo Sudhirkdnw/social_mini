@@ -32,6 +32,7 @@ export default function Notifications() {
       case 'comment': return '💬';
       case 'follow': return '👤';
       case 'mention': return '📢';
+      case 'dating_match': return '💘';
       default: return '🔔';
     }
   };
@@ -52,34 +53,60 @@ export default function Notifications() {
         </div>
       ) : (
         <div className="notif-list">
-          {notifications.map((n, i) => (
+          {notifications.map((n, i) => {
+            const isDatingMatch = n.type === 'dating_match';
+            return (
             <motion.div
               key={n._id}
-              className={`notif-item glass-card ${!n.isRead ? 'notif-item--unread' : ''}`}
+              className={`notif-item glass-card ${!n.isRead ? 'notif-item--unread' : ''} ${isDatingMatch ? 'notif-item--dating' : ''}`}
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: i * 0.03 }}
             >
-              <Link to={`/profile/${n.sender?._id}`} className="notif-avatar">
+              <Link to={isDatingMatch ? '/dating' : `/profile/${n.sender?._id}`} className="notif-avatar">
                 <Avatar src={n.sender?.avatar} alt={n.sender?.username} size={44} />
               </Link>
               <div className="notif-content">
                 <p>
                   <span className="notif-icon">{getIcon(n.type)}</span>
-                  <Link to={`/profile/${n.sender?._id}`} className="notif-user">{n.sender?.username}</Link>{' '}
-                  {n.message?.replace(n.sender?.username, '').trim()}
+                  <Link
+                    to={isDatingMatch ? '/dating' : `/profile/${n.sender?._id}`}
+                    className="notif-user"
+                  >
+                    {n.sender?.username}
+                  </Link>{' '}
+                  {isDatingMatch
+                    ? 'is interested in you! You have a new match 💘'
+                    : n.message?.replace(n.sender?.username, '').trim()
+                  }
                 </p>
                 <span className="notif-time">
                   {formatDistanceToNow(new Date(n.createdAt), { addSuffix: true })}
                 </span>
+                {isDatingMatch && (
+                  <Link to="/dating" style={{
+                    display: 'inline-block',
+                    marginTop: 6,
+                    fontSize: 12,
+                    fontWeight: 700,
+                    padding: '4px 12px',
+                    borderRadius: 20,
+                    background: 'linear-gradient(135deg, #ff6b6b, #ee5a9b)',
+                    color: 'white',
+                    textDecoration: 'none'
+                  }}>
+                    View Match →
+                  </Link>
+                )}
               </div>
-              {n.post?.image && (
+              {!isDatingMatch && n.post?.image && (
                 <Link to={`/post/${n.post._id}`} className="notif-post-img">
                   <img src={n.post.image} alt="" />
                 </Link>
               )}
             </motion.div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>

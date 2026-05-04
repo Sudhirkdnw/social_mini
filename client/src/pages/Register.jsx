@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiUpload, FiCheck, FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import useAuthStore from '../store/authStore';
 import useToastStore from '../store/toastStore';
+import api from '../api/axios';
 import './Auth.css';
 
 export default function Register() {
@@ -18,9 +19,20 @@ export default function Register() {
   const [loading, setLoading] = useState(false);
   const [otpSent, setOtpSent] = useState(false);
   const [sendingOtp, setSendingOtp] = useState(false);
+  const [resendTimer, setResendTimer] = useState(0);
   const { register } = useAuthStore();
   const { addToast } = useToastStore();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    let timer;
+    if (resendTimer > 0) {
+      timer = setInterval(() => {
+        setResendTimer((prev) => prev - 1);
+      }, 1000);
+    }
+    return () => clearInterval(timer);
+  }, [resendTimer]);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -36,10 +48,13 @@ export default function Register() {
 
   const handleSendOtp = async () => {
     if (!form.collegeEmail) return addToast('Please enter your college email first', 'error');
+    if (resendTimer > 0) return addToast(`Please wait ${resendTimer}s before resending`, 'error');
+    
     setSendingOtp(true);
     try {
       await api.post('/auth/send-otp', { email: form.collegeEmail });
       setOtpSent(true);
+      setResendTimer(60);
       addToast('OTP sent to your email', 'success');
     } catch (err) {
       addToast(err.response?.data?.message || 'Failed to send OTP', 'error');
@@ -209,17 +224,17 @@ export default function Register() {
                         value={form.collegeEmail}
                         onChange={handleChange}
                         className="auth-input"
-                        disabled={otpSent}
+                        disabled={otpSent && resendTimer > 0}
                         style={{ flex: 1 }}
                       />
                       <button
                         type="button"
                         className="auth-btn"
                         onClick={handleSendOtp}
-                        disabled={sendingOtp || otpSent || !form.collegeEmail}
+                        disabled={sendingOtp || (otpSent && resendTimer > 0) || !form.collegeEmail}
                         style={{ marginTop: 0, padding: '0 16px', width: 'auto', whiteSpace: 'nowrap' }}
                       >
-                        {sendingOtp ? 'Sending...' : otpSent ? 'Sent ✓' : 'Send OTP'}
+                        {sendingOtp ? 'Sending...' : otpSent ? (resendTimer > 0 ? `Resend in ${resendTimer}s` : 'Resend OTP') : 'Send OTP'}
                       </button>
                     </div>
                     {otpSent && (

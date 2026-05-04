@@ -1,37 +1,24 @@
-import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { AiOutlineHome, AiFillHome } from 'react-icons/ai';
-import { FiSearch, FiPlusSquare, FiHeart } from 'react-icons/fi';
-import { FaHeart } from 'react-icons/fa';
+import { FiSearch, FiPlusSquare, FiMessageSquare } from 'react-icons/fi';
+import { FaCommentDots } from 'react-icons/fa';
+import { GiHearts } from 'react-icons/gi';
 import useAuthStore from '../../store/authStore';
-import api from '../../api/axios';
+import useSocketStore from '../../store/socketStore';
 import Avatar from '../ui/Avatar';
 import './MobileNav.css';
 
 export default function MobileNav() {
   const { user } = useAuthStore();
-  const [unreadCount, setUnreadCount] = useState(0);
+  const { unreadMessages, resetUnreadMessages } = useSocketStore();
 
-  useEffect(() => {
-    const fetchUnread = async () => {
-      try {
-        const { data } = await api.get('/notifications/unread-count');
-        setUnreadCount(data.unreadCount);
-      } catch {
-        // silent
-      }
-    };
-
-    fetchUnread();
-    const interval = setInterval(fetchUnread, 30000);
-    return () => clearInterval(interval);
-  }, []);
-
+  // 5 icons: Home, Search, Create, Messages, Dating, Profile
   const links = [
     { to: '/', icon: <AiOutlineHome />, activeIcon: <AiFillHome /> },
     { to: '/search', icon: <FiSearch />, activeIcon: <FiSearch /> },
     { to: '/create', icon: <FiPlusSquare />, activeIcon: <FiPlusSquare /> },
-    { to: '/notifications', icon: <FiHeart />, activeIcon: <FaHeart />, badge: unreadCount },
+    { to: '/chat', icon: <FiMessageSquare />, activeIcon: <FaCommentDots />, badge: unreadMessages },
+    { to: '/dating', icon: <GiHearts />, activeIcon: <GiHearts /> },
     { to: `/profile/${user?._id}`, icon: <Avatar src={user?.avatar} alt={user?.username} size={24} />, activeIcon: <Avatar src={user?.avatar} alt={user?.username} size={24} /> },
   ];
 
@@ -43,7 +30,7 @@ export default function MobileNav() {
           to={link.to}
           className={({ isActive }) => `mobile-nav-link ${isActive ? 'mobile-nav-link--active' : ''}`}
           onClick={() => {
-            if (link.to === '/notifications') setUnreadCount(0);
+            if (link.to === '/chat') resetUnreadMessages();
           }}
         >
           {({ isActive }) => (

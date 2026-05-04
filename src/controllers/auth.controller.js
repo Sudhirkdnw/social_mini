@@ -85,7 +85,7 @@ async function registerController(req, res) {
         const { otp } = req.body;
         if (collegeEmail) {
             if (!otp) return res.status(400).json({ message: "OTP is required for college email verification" });
-            
+
             const otpRecord = await otpModel.findOne({ email: collegeEmail.toLowerCase() });
             if (!otpRecord) return res.status(400).json({ message: "OTP expired or not found. Please request a new one." });
             if (otpRecord.otp !== otp) return res.status(400).json({ message: "Invalid OTP" });
@@ -160,6 +160,7 @@ async function loginController(req, res) {
         if (!isPasswordMatch) {
             return res.status(401).json({ message: "Invalid credentials" });
         }
+
 
         const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "7d" });
 

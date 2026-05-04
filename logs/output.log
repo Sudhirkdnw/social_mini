@@ -1,0 +1,115 @@
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 00:22:29: [dotenv@17.3.1] injecting env (6) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: Server is running on port 3000
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:29: MongoDB Connected
+2026-05-05 00:22:32: User connected: 3o3WUSc4zlMcTDKtAAAC
+2026-05-05 00:22:32: User connected: AXb2Oog8tDzFYVQjAAAD
+2026-05-05 00:22:32: Online users: [ '69e8fac86be29108b4b973ec' ]
+2026-05-05 00:22:32: User disconnected: AXb2Oog8tDzFYVQjAAAD
+2026-05-05 00:22:34: User connected: 9b373vd76CIKR8IrAAAG
+2026-05-05 00:22:34: User connected: nH7QEDEi32d0cSL_AAAH
+2026-05-05 00:22:34: User connected: bWEjOS6Hu-s2zhzAAAAB
+2026-05-05 00:22:34: Online users: [ '69e8fac86be29108b4b973ec', '69e8fc99f4c81cad77d0a77c' ]
+2026-05-05 00:22:34: Online users: [ '69e8fac86be29108b4b973ec', '69e8fc99f4c81cad77d0a77c' ]
+2026-05-05 00:22:35: User connected: viJ31DO9enaE691ZAAAJ
+2026-05-05 00:22:37: User connected: hAxAFGdvFVnKsqYAAAAD
+2026-05-05 00:22:38: User connected: WNGglxgFAEHgWuNxAAAL
+2026-05-05 00:22:39: User connected: BhPbEnF-fLbGDfY-AAAF
+2026-05-05 00:22:40: User connected: 9FYBCud7iBZnDnH6AAAN
+2026-05-05 00:22:40: Online users: [
+  '69e8fac86be29108b4b973ec',
+  '69e8fc99f4c81cad77d0a77c',
+  '69f8b834c7470d8d8a21af44'
+]
+2026-05-05 00:23:19: User disconnected: bWEjOS6Hu-s2zhzAAAAB
+2026-05-05 00:23:20: User disconnected: viJ31DO9enaE691ZAAAJ
+2026-05-05 00:23:22: User disconnected: hAxAFGdvFVnKsqYAAAAD
+2026-05-05 00:23:23: User disconnected: WNGglxgFAEHgWuNxAAAL
+2026-05-05 00:23:24: User disconnected: BhPbEnF-fLbGDfY-AAAF
+2026-05-05 00:30:25: User disconnected: 9b373vd76CIKR8IrAAAG
+2026-05-05 00:30:26: User connected: eP_nzi5wZOl5AFgwAAAB
+2026-05-05 00:30:26: User disconnected: eP_nzi5wZOl5AFgwAAAB
+2026-05-05 00:30:27: User connected: zug26TRbvJjwuLdGAAAD
+2026-05-05 00:30:27: User connected: 2SUHaU_F3er8FaQnAAAP
+2026-05-05 00:30:28: User connected: mrIH8fpPiRwdXpBHAAAF
+2026-05-05 00:30:29: User connected: on0n9kJGxWUyV14xAAAR
+2026-05-05 00:30:30: User connected: jKgKNP6tFs7eCXTQAAAH
+2026-05-05 00:30:31: User connected: V8cGVa0mzGiem_UdAAAT
+2026-05-05 00:30:32: User connected: 3fT5z7zddkufhNr3AAAJ
+2026-05-05 00:30:32: Online users: [ '69e8fc99f4c81cad77d0a77c' ]
+2026-05-05 00:30:35: User disconnected: V8cGVa0mzGiem_UdAAAT
+2026-05-05 00:30:35: User disconnected: 3fT5z7zddkufhNr3AAAJ
+2026-05-05 00:30:36: User connected: 1KdWkmIM3rumuHO5AAAL
+2026-05-05 00:30:36: Online users: [ '69e8fc99f4c81cad77d0a77c' ]
+2026-05-05 00:30:37: Socket 1KdWkmIM3rumuHO5AAAL joined conversation 69e9fe1cf863ea6230c26564
+2026-05-05 00:30:40: User disconnected: 9FYBCud7iBZnDnH6AAAN
+2026-05-05 00:30:40: User connected: fIjA68r7pqilAJVNAAAN
+2026-05-05 00:30:40: Online users: [ '69e8fc99f4c81cad77d0a77c', '69f8b834c7470d8d8a21af44' ]
+2026-05-05 00:30:44: Socket fIjA68r7pqilAJVNAAAN joined conversation 69f8dcd0efa14c2fdf9cfd97
+2026-05-05 00:31:12: User disconnected: zug26TRbvJjwuLdGAAAD
+2026-05-05 00:31:12: User disconnected: 2SUHaU_F3er8FaQnAAAP
+2026-05-05 00:31:14: User disconnected: mrIH8fpPiRwdXpBHAAAF
+2026-05-05 00:31:14: User disconnected: on0n9kJGxWUyV14xAAAR
+2026-05-05 00:31:15: User disconnected: fIjA68r7pqilAJVNAAAN
+2026-05-05 00:31:15: User connected: eLFbsNIN77Gb2QDDAAAV
+2026-05-05 00:31:15: User disconnected: jKgKNP6tFs7eCXTQAAAH
+2026-05-05 00:31:16: User connected: hS2AMe4ZyvdvoCU4AAAP
+2026-05-05 00:31:17: User connected: Yn40GgvvQF-ZmCK6AAAX
+2026-05-05 00:31:17: Online users: [ '69e8fac86be29108b4b973ec', '69f8b834c7470d8d8a21af44' ]
+2026-05-05 00:31:29: User disconnected: hS2AMe4ZyvdvoCU4AAAP
+2026-05-05 00:31:29: User disconnected: Yn40GgvvQF-ZmCK6AAAX
+2026-05-05 00:31:29: User connected: Pbe1GCSf8I9bi9XTAAAZ
+2026-05-05 00:31:29: Online users: [ '69e8fac86be29108b4b973ec', '69f8b834c7470d8d8a21af44' ]
+2026-05-05 00:31:45: Socket Pbe1GCSf8I9bi9XTAAAZ joined conversation 69f8dcd0efa14c2fdf9cfd97
+2026-05-05 00:32:00: User disconnected: eLFbsNIN77Gb2QDDAAAV
+2026-05-05 00:39:16: User disconnected: Pbe1GCSf8I9bi9XTAAAZ
+2026-05-05 00:39:16: User connected: nGUzldOwm-rsjKjAAAAH
+2026-05-05 00:39:18: User connected: dVi0TYEX0z5hShGeAAAb
+2026-05-05 00:39:19: User connected: wZEUrLqZbpDOMQ2IAAAJ
+2026-05-05 00:39:19: Online users: [ '69f8b834c7470d8d8a21af44' ]
+2026-05-05 00:39:25: Socket wZEUrLqZbpDOMQ2IAAAJ joined conversation 69f8dcd0efa14c2fdf9cfd97
+2026-05-05 00:40:01: User disconnected: nGUzldOwm-rsjKjAAAAH
+2026-05-05 00:40:03: User disconnected: dVi0TYEX0z5hShGeAAAb
+2026-05-05 00:40:07: User disconnected: wZEUrLqZbpDOMQ2IAAAJ
+2026-05-05 00:40:07: User connected: aGCmiLmm4v9NXVfTAAAL
+2026-05-05 00:40:08: User connected: LD1Ch-Heej_yegcQAAAR
+2026-05-05 00:40:10: User connected: Yt0xDrKzLWafwbW3AAAN
+2026-05-05 00:40:12: User connected: G2ixJu8oHmy1nkyaAAAT
+2026-05-05 00:40:14: User connected: RqMGIKZpk2QP38jCAAAP
+2026-05-05 00:40:14: Online users: [ '69f8b834c7470d8d8a21af44' ]
+2026-05-05 00:40:52: User disconnected: aGCmiLmm4v9NXVfTAAAL
+2026-05-05 00:40:53: User disconnected: LD1Ch-Heej_yegcQAAAR
+2026-05-05 00:40:55: User disconnected: Yt0xDrKzLWafwbW3AAAN
+2026-05-05 00:40:57: User disconnected: G2ixJu8oHmy1nkyaAAAT

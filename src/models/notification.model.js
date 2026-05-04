@@ -14,7 +14,7 @@ const notificationSchema = new mongoose.Schema({
     },
     type: {
         type: String,
-        enum: ["like", "comment", "follow", "mention"],
+        enum: ["like", "comment", "follow", "mention", "dating_match"],
         required: true
     },
     post: {
@@ -29,6 +29,10 @@ const notificationSchema = new mongoose.Schema({
         default: false
     }
 }, { timestamps: true });
+
+// ── Indexes ─────────────────────────────────────────────
+// Unread count query: recipient + isRead filter, newest first
+notificationSchema.index({ recipient: 1, isRead: 1, createdAt: -1 });
 
 const notificationModel = mongoose.model("notification", notificationSchema);
 

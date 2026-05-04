@@ -1,5 +1,6 @@
 const postModel = require('../models/post.model');
 const notificationModel = require('../models/notification.model');
+const { uploadImage, deleteImage } = require('../utils/cloudinary');
 
 // POST /api/posts — Create post
 const createPost = async (req, res) => {
@@ -8,8 +9,8 @@ const createPost = async (req, res) => {
 
         let image = null;
         if (req.file) {
-            const base64 = req.file.buffer.toString("base64");
-            image = `data:${req.file.mimetype};base64,${base64}`;
+            // Upload buffer to Cloudinary → get CDN URL
+            image = await uploadImage(req.file.buffer, { folder: 'friendzone/posts' });
         }
 
         const post = await postModel.create({
@@ -27,6 +28,7 @@ const createPost = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
+
 
 // GET /api/posts/feed — Posts from followed users
 const getFeed = async (req, res) => {

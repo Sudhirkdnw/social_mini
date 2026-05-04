@@ -1,5 +1,6 @@
 const userModel = require("../models/user.model");
 const notificationModel = require("../models/notification.model");
+const { uploadAvatar } = require('../utils/cloudinary');
 
 // GET /api/users/:id — Get user profile
 async function getUserProfile(req, res) {
@@ -61,13 +62,12 @@ async function updateAvatar(req, res) {
             return res.status(400).json({ message: "No image provided" });
         }
 
-        // Store as base64 data URL
-        const base64 = req.file.buffer.toString("base64");
-        const avatar = `data:${req.file.mimetype};base64,${base64}`;
+        // Upload to Cloudinary with face-crop optimization
+        const avatarUrl = await uploadAvatar(req.file.buffer);
 
         const user = await userModel.findByIdAndUpdate(
             req.user._id,
-            { avatar },
+            { avatar: avatarUrl },
             { returnDocument: 'after' }
         ).select("-password");
 

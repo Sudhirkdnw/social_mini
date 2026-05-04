@@ -89,6 +89,14 @@ const userSchema = new mongoose.Schema({
     }
 }, { timestamps: true });
 
+// ── Indexes ─────────────────────────────────────────────
+// Text search on username and fullName (replaces slow $regex queries)
+userSchema.index({ username: 'text', fullName: 'text' });
+// Admin: filter by verification status
+userSchema.index({ verificationStatus: 1, createdAt: -1 });
+// lastActive for online presence queries
+userSchema.index({ lastActive: -1 });
+
 const userModel = mongoose.model("user", userSchema);
 
 module.exports = userModel;

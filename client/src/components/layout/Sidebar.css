@@ -84,8 +84,30 @@
   100% { transform: scale(1); }
 }
 
+/* Inline pill badge inside the label — hides automatically with label on collapse */
+.sidebar-label-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  background: linear-gradient(135deg, #e1306c, #fd1d1d);
+  color: white;
+  font-size: 0.68rem;
+  font-weight: 700;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(225, 48, 108, 0.45);
+  vertical-align: middle;
+  line-height: 1;
+  animation: badgePop 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .sidebar-link-label {
   white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
 
 .sidebar-bottom {
@@ -131,10 +153,6 @@
   .sidebar-user {
     justify-content: center;
     padding: 10px;
-  }
-
-  .main-content {
-    margin-left: var(--sidebar-collapsed);
   }
 }
 

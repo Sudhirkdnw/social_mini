@@ -46,6 +46,14 @@ const postSchema = new mongoose.Schema({
     }
 }, { timestamps: true });
 
+// ── Indexes ─────────────────────────────────────────────
+// Profile page: user's posts newest first
+postSchema.index({ user: 1, createdAt: -1 });
+// Explore feed: visible posts newest first
+postSchema.index({ isHidden: 1, createdAt: -1 });
+// Tag search
+postSchema.index({ tags: 1 });
+
 const postModel = mongoose.model("post", postSchema);
 
 module.exports = postModel;

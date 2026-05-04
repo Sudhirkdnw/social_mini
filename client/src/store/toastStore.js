@@ -3,10 +3,10 @@ import { create } from 'zustand';
 const useToastStore = create((set) => ({
   toasts: [],
 
-  addToast: (message, type = 'info') => {
+  addToast: (message, type = 'info', options = {}) => {
     const id = Date.now();
     set((state) => ({
-      toasts: [...state.toasts, { id, message, type }],
+      toasts: [...state.toasts, { id, message, type, ...options }],
     }));
     setTimeout(() => {
       set((state) => ({
