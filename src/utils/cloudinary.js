@@ -19,18 +19,25 @@
 
 const cloudinary = require('cloudinary').v2;
 
-// Configure once at module load
-cloudinary.config({
-    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_API_SECRET,
-    secure: true, // always https
-});
+// Configure Cloudinary explicitly
+if (process.env.CLOUDINARY_URL) {
+    // Some Cloudinary versions require explicit string passing if env vars were loaded late
+    cloudinary.config(process.env.CLOUDINARY_URL);
+} else if (process.env.CLOUDINARY_CLOUD_NAME) {
+    // Fallback: configure from individual vars
+    cloudinary.config({
+        cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+        api_key: process.env.CLOUDINARY_API_KEY,
+        api_secret: process.env.CLOUDINARY_API_SECRET,
+        secure: true,
+    });
+}
 
 const isConfigured = () =>
-    process.env.CLOUDINARY_CLOUD_NAME &&
-    process.env.CLOUDINARY_API_KEY &&
-    process.env.CLOUDINARY_API_SECRET;
+    process.env.CLOUDINARY_URL ||
+    (process.env.CLOUDINARY_CLOUD_NAME &&
+        process.env.CLOUDINARY_API_KEY &&
+        process.env.CLOUDINARY_API_SECRET);
 
 /**
  * Upload a file buffer or base64 string to Cloudinary.
@@ -39,13 +46,14 @@ const isConfigured = () =>
  * @param {object}        opts   Optional cloudinary upload options
  * @returns {string}             Secure CDN URL of the uploaded image
  */
-const uploadImage = async (input, opts = {}) => {
+const uploadImage = async (input, opts = {}, mimetype = null) => {
     if (!isConfigured()) {
-        // Cloudinary not configured — fall back to base64 (dev mode)
+        // Cloudinary not configured — fall back to base64 data URL
         if (Buffer.isBuffer(input)) {
-            throw new Error('Cloudinary not configured. Set CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET in .env');
+            const mime = mimetype || 'image/jpeg';
+            return `data:${mime};base64,${input.toString('base64')}`;
         }
-        return input; // Return the base64 string as-is if already a string
+        return input; // Already a string (URL or base64)
     }
 
     const defaults = {
@@ -78,14 +86,16 @@ const uploadImage = async (input, opts = {}) => {
 
 /**
  * Upload an avatar — smaller size, circular crop hint.
+ * @param {Buffer} buffer    File buffer from multer
+ * @param {string} mimetype  MIME type from req.file.mimetype
  */
-const uploadAvatar = async (input) => {
-    return uploadImage(input, {
+const uploadAvatar = async (buffer, mimetype) => {
+    return uploadImage(buffer, {
         folder: 'friendzone/avatars',
         transformation: [
             { width: 400, height: 400, crop: 'fill', gravity: 'face' },
         ],
-    });
+    }, mimetype);
 };
 
 /**

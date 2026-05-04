@@ -86,20 +86,27 @@ async function createGroup(req, res) {
 
 async function getMessages(req, res) {
     try {
-        const { id } = req.params; // conversation id
+        const { id } = req.params;
         const currentUserId = req.user._id;
 
-        // Verify participation
+        // Pagination: ?limit=50&cursor=<ISO_timestamp_of_oldest_msg>
+        const limit  = Math.min(parseInt(req.query.limit) || 50, 100);
+        const cursor = req.query.cursor;
+
         const conversation = await Conversation.findOne({ _id: id, participants: currentUserId });
         if (!conversation) {
             return res.status(403).json({ message: "Not a participant in this conversation" });
         }
 
-        const messages = await Message.find({ conversation: id })
-            .populate("sender", "username avatar")
-            .sort({ createdAt: 1 });
+        const filter = { conversation: id };
+        if (cursor) filter.createdAt = { $lt: new Date(cursor) };
 
-        res.status(200).json(messages);
+        const messages = await Message.find(filter)
+            .populate("sender", "username avatar")
+            .sort({ createdAt: -1 })
+            .limit(limit);
+
+        res.status(200).json(messages.reverse());
     } catch (error) {
         res.status(500).json({ message: error.message });
     }

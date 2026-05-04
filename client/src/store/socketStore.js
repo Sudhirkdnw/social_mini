@@ -17,6 +17,7 @@ const useSocketStore = create((set, get) => ({
         if (!get().socket) {
             const socket = io(SOCKET_URL, {
                 withCredentials: true,
+                transports: ['websocket'], // MUST force websocket to prevent 400 errors in PM2 cluster (no sticky sessions)
             });
 
             socket.on("connect", () => {

@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --runInBand --forceExit",
+    "test:auth": "jest --runInBand --forceExit tests/auth.test.js",
+    "test:messages": "jest --runInBand --forceExit tests/messages.test.js",
+    "test:watch": "jest --runInBand --watch"
   },
   "keywords": [],
   "author": "",
@@ -28,5 +31,11 @@
     "node-cache": "^5.1.2",
     "nodemailer": "^8.0.5",
     "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "mongodb-memory-server": "^11.1.0",
+    "socket.io-client": "^4.8.3",
+    "supertest": "^7.2.2"
   }
 }

@@ -62,17 +62,20 @@ async function updateAvatar(req, res) {
             return res.status(400).json({ message: "No image provided" });
         }
 
-        // Upload to Cloudinary with face-crop optimization
-        const avatarUrl = await uploadAvatar(req.file.buffer);
+        // Upload to Cloudinary (or base64 fallback if Cloudinary not configured)
+        const avatarUrl = await uploadAvatar(req.file.buffer, req.file.mimetype);
 
+        // { new: true } returns the UPDATED document (Mongoose syntax)
+        // { returnDocument: 'after' } is MongoDB driver syntax — does NOT work in Mongoose
         const user = await userModel.findByIdAndUpdate(
             req.user._id,
             { avatar: avatarUrl },
-            { returnDocument: 'after' }
+            { new: true }
         ).select("-password");
 
         res.status(200).json({ message: "Avatar updated", user });
     } catch (error) {
+        console.error('❌ Avatar upload error:', error.message);
         res.status(500).json({ message: error.message });
     }
 }

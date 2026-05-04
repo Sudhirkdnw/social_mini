@@ -113,3 +113,1604 @@
 2026-05-05 00:40:53: User disconnected: LD1Ch-Heej_yegcQAAAR
 2026-05-05 00:40:55: User disconnected: Yt0xDrKzLWafwbW3AAAN
 2026-05-05 00:40:57: User disconnected: G2ixJu8oHmy1nkyaAAAT
+2026-05-05 02:18:32: [dotenv@17.3.1] injecting env (8) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 02:18:32: [dotenv@17.3.1] injecting env (8) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 02:18:32: [dotenv@17.3.1] injecting env (8) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-05-05 02:18:32: [dotenv@17.3.1] injecting env (8) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:18:32: [dotenv@17.3.1] injecting env (8) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 02:18:32: [dotenv@17.3.1] injecting env (8) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 02:18:32: [dotenv@17.3.1] injecting env (8) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-05-05 02:18:32: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:32: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:32: ✅ Redis connected (pubsub)
+2026-05-05 02:18:32: ✅ Redis connected (pubsub)
+2026-05-05 02:18:32: ✅ Redis connected (cache)
+2026-05-05 02:18:32: ✅ Redis connected (cache)
+2026-05-05 02:18:32: [dotenv@17.3.1] injecting env (8) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:18:32: ✅ Redis connected (pubsub)
+2026-05-05 02:18:32: ✅ Redis connected (cache)
+2026-05-05 02:18:32: [dotenv@17.3.1] injecting env (8) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 02:18:33: [dotenv@17.3.1] injecting env (8) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-05-05 02:18:33: ✅ Redis connected (cache)
+2026-05-05 02:18:33: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:33: ✅ Redis connected (cache)
+2026-05-05 02:18:33: ✅ Redis connected (pubsub)
+2026-05-05 02:18:33: [dotenv@17.3.1] injecting env (8) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-05-05 02:18:33: [dotenv@17.3.1] injecting env (8) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 02:18:33: ✅ Redis connected (pubsub)
+2026-05-05 02:18:33: ✅ Redis connected (cache)
+2026-05-05 02:18:33: ✅ Redis connected (pubsub)
+2026-05-05 02:18:33: ✅ Redis connected (cache)
+2026-05-05 02:18:33: ✅ Redis connected (cache)
+2026-05-05 02:18:33: ✅ Redis connected (cache)
+2026-05-05 02:18:33: ✅ Redis connected (pubsub)
+2026-05-05 02:18:33: ✅ Redis ready (pubsub)
+2026-05-05 02:18:33: ✅ Redis ready (pubsub)
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Redis ready (pubsub)
+2026-05-05 02:18:33: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:33: Server is running on port 3000
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:33: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:33: Server is running on port 3000
+2026-05-05 02:18:33: Server is running on port 3000
+2026-05-05 02:18:33: ✅ Redis connected (cache)
+2026-05-05 02:18:33: ✅ Redis connected (pubsub)
+2026-05-05 02:18:33: User connected: 2P-ARYiAiUy4ugoLAAAB
+2026-05-05 02:18:33: ✅ Redis connected (cache)
+2026-05-05 02:18:33: ✅ Redis connected (pubsub)
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Redis connected (cache)
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Redis ready (pubsub)
+2026-05-05 02:18:33: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:33: Server is running on port 3000
+2026-05-05 02:18:33: ✅ Redis ready (pubsub)
+2026-05-05 02:18:33: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:33: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:33: Server is running on port 3000
+2026-05-05 02:18:33: ✅ Redis ready (pubsub)
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:33: Server is running on port 3000
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:33: ✅ Redis ready (pubsub)
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:33: Server is running on port 3000
+2026-05-05 02:18:33: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Redis ready (pubsub)
+2026-05-05 02:18:33: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:33: Server is running on port 3000
+2026-05-05 02:18:33: ✅ Redis ready (cache)
+2026-05-05 02:18:33: ✅ Redis ready (pubsub)
+2026-05-05 02:18:33: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:33: Server is running on port 3000
+2026-05-05 02:18:34: ✅ Redis connected (pubsub)
+2026-05-05 02:18:34: ✅ Redis ready (cache)
+2026-05-05 02:18:34: ✅ Redis connected (pubsub)
+2026-05-05 02:18:34: ✅ Redis ready (pubsub)
+2026-05-05 02:18:34: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:34: Server is running on port 3000
+2026-05-05 02:18:34: ✅ Redis connected (pubsub)
+2026-05-05 02:18:34: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:34: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:35: ✅ Redis ready (pubsub)
+2026-05-05 02:18:35: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:35: Server is running on port 3000
+2026-05-05 02:18:35: ✅ Redis ready (pubsub)
+2026-05-05 02:18:35: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:18:35: Server is running on port 3000
+2026-05-05 02:18:35: User connected: Lageg54ktUUu_V8ZAAAB
+2026-05-05 02:18:35: User disconnected: Lageg54ktUUu_V8ZAAAB
+2026-05-05 02:18:35: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:35: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:35: ✅ MongoDB Atlas Connected
+2026-05-05 02:18:36: User connected: ksc3EAbOuIeLUuUGAAAD
+2026-05-05 02:18:37: User connected: AJgMDlsMN37s-2jsAAAD
+2026-05-05 02:18:39: User connected: Ltr9T1p1wsJnCj_7AAAF
+2026-05-05 02:18:40: User connected: y6S07uxlgtCWH6OQAAAF
+2026-05-05 02:18:41: User connected: QHSHkKkNFB0c5RpWAAAH
+2026-05-05 02:18:41: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:18:43: User connected: 6M-NLTqQ1I_SN28gAAAH
+2026-05-05 02:18:43: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:19:10: User connected: s-HRviDIbljojMqLAAAB
+2026-05-05 02:19:10: User disconnected: s-HRviDIbljojMqLAAAB
+2026-05-05 02:19:11: User connected: SBMVqPWBy6RVT-qDAAAD
+2026-05-05 02:19:12: User connected: 4uB0GOYjt7S95M1nAAAJ
+2026-05-05 02:19:13: User connected: KdPFiSGZ5e5vx1X3AAAF
+2026-05-05 02:19:13: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:19:18: User disconnected: 2P-ARYiAiUy4ugoLAAAB
+2026-05-05 02:19:21: User disconnected: ksc3EAbOuIeLUuUGAAAD
+2026-05-05 02:19:22: User disconnected: AJgMDlsMN37s-2jsAAAD
+2026-05-05 02:19:24: User disconnected: Ltr9T1p1wsJnCj_7AAAF
+2026-05-05 02:19:25: User disconnected: y6S07uxlgtCWH6OQAAAF
+2026-05-05 02:19:26: User disconnected: QHSHkKkNFB0c5RpWAAAH
+2026-05-05 02:19:49: User disconnected: KdPFiSGZ5e5vx1X3AAAF
+2026-05-05 02:19:49: User connected: 2YNnU2E-x5PXBYiVAAAH
+2026-05-05 02:19:49: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:19:53: User disconnected: 6M-NLTqQ1I_SN28gAAAH
+2026-05-05 02:19:56: User disconnected: SBMVqPWBy6RVT-qDAAAD
+2026-05-05 02:19:57: User disconnected: 4uB0GOYjt7S95M1nAAAJ
+2026-05-05 02:27:35: User connected: L4ELfqXWnJ5yRvzYAAAJ
+2026-05-05 02:27:35: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:28:35: User disconnected: L4ELfqXWnJ5yRvzYAAAJ
+2026-05-05 02:28:35: User connected: H50xYfc2fmz6XhjtAAAL
+2026-05-05 02:28:36: User connected: COZUTq5nQXWKDwr6AAAB
+2026-05-05 02:28:36: User disconnected: COZUTq5nQXWKDwr6AAAB
+2026-05-05 02:28:37: User connected: UYPH65oJLSXVf-7PAAAD
+2026-05-05 02:28:38: User connected: PqEH5_VbpSl3r4VPAAAN
+2026-05-05 02:28:39: User connected: GyYVpoaLg-ST5Te-AAAF
+2026-05-05 02:28:39: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:28:52: User disconnected: GyYVpoaLg-ST5Te-AAAF
+2026-05-05 02:28:52: User connected: HGVBAPHXUVNmienGAAAP
+2026-05-05 02:28:52: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:29:20: User disconnected: H50xYfc2fmz6XhjtAAAL
+2026-05-05 02:29:22: User disconnected: UYPH65oJLSXVf-7PAAAD
+2026-05-05 02:29:23: User disconnected: PqEH5_VbpSl3r4VPAAAN
+2026-05-05 02:37:58: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-05-05 02:37:58: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 02:37:58: ✅ MongoDB Atlas Connected
+2026-05-05 02:37:58: ✅ Redis connected (cache)
+2026-05-05 02:37:58: ✅ Redis connected (cache)
+2026-05-05 02:37:58: ✅ Redis connected (pubsub)
+2026-05-05 02:37:59: ✅ Redis ready (cache)
+2026-05-05 02:37:59: ✅ Redis ready (cache)
+2026-05-05 02:37:59: ✅ Redis ready (pubsub)
+2026-05-05 02:37:59: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:37:59: Server is running on port 3000
+2026-05-05 02:37:59: ✅ MongoDB Atlas Connected
+2026-05-05 02:37:59: ✅ Redis connected (pubsub)
+2026-05-05 02:38:00: ✅ Redis ready (pubsub)
+2026-05-05 02:38:00: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:00: Server is running on port 3000
+2026-05-05 02:38:00: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-05-05 02:38:00: ✅ Redis connected (pubsub)
+2026-05-05 02:38:00: ✅ Redis connected (cache)
+2026-05-05 02:38:01: ✅ Redis ready (pubsub)
+2026-05-05 02:38:01: ✅ Redis ready (cache)
+2026-05-05 02:38:01: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:01: Server is running on port 3000
+2026-05-05 02:38:01: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 02:38:01: ✅ Redis connected (cache)
+2026-05-05 02:38:01: ✅ Redis connected (pubsub)
+2026-05-05 02:38:01: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:01: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:02: ✅ Redis ready (cache)
+2026-05-05 02:38:02: ✅ Redis ready (pubsub)
+2026-05-05 02:38:02: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:02: Server is running on port 3000
+2026-05-05 02:38:02: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:38:02: ✅ Redis connected (cache)
+2026-05-05 02:38:02: ✅ Redis connected (pubsub)
+2026-05-05 02:38:02: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:03: ✅ Redis ready (cache)
+2026-05-05 02:38:03: ✅ Redis ready (pubsub)
+2026-05-05 02:38:03: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:03: Server is running on port 3000
+2026-05-05 02:38:03: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 02:38:03: ✅ Redis connected (pubsub)
+2026-05-05 02:38:03: ✅ Redis connected (cache)
+2026-05-05 02:38:03: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:03: ✅ Redis ready (pubsub)
+2026-05-05 02:38:03: ✅ Redis ready (cache)
+2026-05-05 02:38:03: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:03: Server is running on port 3000
+2026-05-05 02:38:03: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-05-05 02:38:04: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:04: ✅ Redis connected (cache)
+2026-05-05 02:38:04: ✅ Redis connected (pubsub)
+2026-05-05 02:38:04: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 02:38:04: ✅ Redis ready (cache)
+2026-05-05 02:38:04: ✅ Redis ready (pubsub)
+2026-05-05 02:38:04: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:04: Server is running on port 3000
+2026-05-05 02:38:05: ✅ Redis connected (pubsub)
+2026-05-05 02:38:05: ✅ Redis connected (cache)
+2026-05-05 02:38:05: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:05: ✅ Redis ready (pubsub)
+2026-05-05 02:38:05: ✅ Redis ready (cache)
+2026-05-05 02:38:05: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:05: Server is running on port 3000
+2026-05-05 02:38:05: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:38:06: ✅ Redis connected (cache)
+2026-05-05 02:38:06: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:06: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-05-05 02:38:06: ✅ Redis ready (cache)
+2026-05-05 02:38:07: ✅ Redis connected (cache)
+2026-05-05 02:38:07: ✅ Redis connected (pubsub)
+2026-05-05 02:38:07: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:07: User connected: H3ocE22330a2fUfcAAAB
+2026-05-05 02:38:07: User connected: q8DbWzKC7CCY3B6NAAAB
+2026-05-05 02:38:07: ✅ Redis connected (pubsub)
+2026-05-05 02:38:07: ✅ Redis ready (cache)
+2026-05-05 02:38:07: ✅ Redis ready (pubsub)
+2026-05-05 02:38:07: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:07: Server is running on port 3000
+2026-05-05 02:38:07: ✅ Redis ready (pubsub)
+2026-05-05 02:38:07: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:07: Server is running on port 3000
+2026-05-05 02:38:08: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 02:38:08: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-05-05 02:38:08: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:09: ✅ Redis connected (pubsub)
+2026-05-05 02:38:09: ✅ Redis connected (cache)
+2026-05-05 02:38:09: ✅ Redis connected (cache)
+2026-05-05 02:38:09: ✅ Redis connected (pubsub)
+2026-05-05 02:38:09: ✅ MongoDB Atlas Connected
+2026-05-05 02:38:09: User connected: 0A-ynPqumjkmsw0oAAAC
+2026-05-05 02:38:09: User connected: VF5FtkWTnQffYZ68AAAD
+2026-05-05 02:38:09: User disconnected: 0A-ynPqumjkmsw0oAAAC
+2026-05-05 02:38:09: User disconnected: VF5FtkWTnQffYZ68AAAD
+2026-05-05 02:38:09: ✅ Redis ready (pubsub)
+2026-05-05 02:38:09: ✅ Redis ready (cache)
+2026-05-05 02:38:09: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:09: Server is running on port 3000
+2026-05-05 02:38:09: ✅ Redis ready (cache)
+2026-05-05 02:38:09: ✅ Redis ready (pubsub)
+2026-05-05 02:38:09: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:38:09: Server is running on port 3000
+2026-05-05 02:38:11: User connected: 6_fmjqUgEHShj1iHAAAG
+2026-05-05 02:38:11: User connected: uB4-O1ZXSZ84JEpeAAAH
+2026-05-05 02:38:12: User connected: TrS_EmzfvxhGBJZFAAAD
+2026-05-05 02:38:13: User connected: Yr5lV4TbUU2Ms0xnAAAD
+2026-05-05 02:38:14: User connected: AxjRxX-75ZAxVWGPAAAJ
+2026-05-05 02:38:15: User connected: DzpLPAQFyzLIt8QZAAAB
+2026-05-05 02:38:15: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:38:16: User connected: vSM2kIxGuagmBaXTAAAF
+2026-05-05 02:38:17: User connected: Ymtp1GwpplAGPO0VAAAL
+2026-05-05 02:38:17: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:38:17: User disconnected: Ymtp1GwpplAGPO0VAAAL
+2026-05-05 02:38:18: User connected: 5pR9lvvyAU0fo_b6AAAN
+2026-05-05 02:38:19: User connected: fs2jRRZ4UxnAEgbyAAAH
+2026-05-05 02:38:21: User connected: 6-hozXAKvW76xFhHAAAD
+2026-05-05 02:38:21: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:38:48: User disconnected: DzpLPAQFyzLIt8QZAAAB
+2026-05-05 02:38:48: User connected: XWSjuG5vzXL40kfaAAAF
+2026-05-05 02:38:48: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:38:52: User disconnected: H3ocE22330a2fUfcAAAB
+2026-05-05 02:38:52: User disconnected: q8DbWzKC7CCY3B6NAAAB
+2026-05-05 02:38:56: User disconnected: 6_fmjqUgEHShj1iHAAAG
+2026-05-05 02:38:56: User disconnected: uB4-O1ZXSZ84JEpeAAAH
+2026-05-05 02:38:57: User disconnected: TrS_EmzfvxhGBJZFAAAD
+2026-05-05 02:38:58: User disconnected: Yr5lV4TbUU2Ms0xnAAAD
+2026-05-05 02:38:59: User disconnected: AxjRxX-75ZAxVWGPAAAJ
+2026-05-05 02:39:01: User disconnected: vSM2kIxGuagmBaXTAAAF
+2026-05-05 02:39:03: User disconnected: 5pR9lvvyAU0fo_b6AAAN
+2026-05-05 02:39:04: User disconnected: fs2jRRZ4UxnAEgbyAAAH
+2026-05-05 02:39:06: User disconnected: XWSjuG5vzXL40kfaAAAF
+2026-05-05 02:39:06: User connected: JlATVkc5cl5xiuuFAAAH
+2026-05-05 02:39:06: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:22: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:41:22: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 02:41:22: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:41:22: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 02:41:22: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:22: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:22: ✅ Redis connected (cache)
+2026-05-05 02:41:22: ✅ Redis connected (pubsub)
+2026-05-05 02:41:22: ✅ Redis connected (pubsub)
+2026-05-05 02:41:22: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-05-05 02:41:22: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:41:22: ✅ Redis connected (pubsub)
+2026-05-05 02:41:22: ✅ Redis connected (cache)
+2026-05-05 02:41:22: ✅ Redis connected (pubsub)
+2026-05-05 02:41:22: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:22: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:23: ✅ Redis ready (cache)
+2026-05-05 02:41:23: ✅ Redis ready (pubsub)
+2026-05-05 02:41:23: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:23: Server is running on port 3000
+2026-05-05 02:41:23: ✅ Redis ready (pubsub)
+2026-05-05 02:41:23: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-05-05 02:41:23: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 02:41:23: ✅ Redis connected (pubsub)
+2026-05-05 02:41:23: ✅ Redis ready (pubsub)
+2026-05-05 02:41:23: ✅ Redis ready (cache)
+2026-05-05 02:41:23: ✅ Redis connected (pubsub)
+2026-05-05 02:41:23: ✅ Redis connected (cache)
+2026-05-05 02:41:23: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-05-05 02:41:23: ✅ Redis connected (cache)
+2026-05-05 02:41:23: ✅ Redis ready (pubsub)
+2026-05-05 02:41:23: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:23: Server is running on port 3000
+2026-05-05 02:41:23: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 02:41:23: ✅ Redis connected (cache)
+2026-05-05 02:41:23: ✅ Redis connected (pubsub)
+2026-05-05 02:41:23: ✅ Redis connected (cache)
+2026-05-05 02:41:23: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:23: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:23: ✅ Redis connected (cache)
+2026-05-05 02:41:23: ✅ Redis connected (pubsub)
+2026-05-05 02:41:23: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:23: ✅ Redis ready (pubsub)
+2026-05-05 02:41:23: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:23: ✅ Redis ready (cache)
+2026-05-05 02:41:23: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:23: ✅ Redis ready (pubsub)
+2026-05-05 02:41:23: Server is running on port 3000
+2026-05-05 02:41:23: ✅ Redis ready (cache)
+2026-05-05 02:41:23: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:23: Server is running on port 3000
+2026-05-05 02:41:23: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-05-05 02:41:23: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-05-05 02:41:23: ✅ Redis connected (cache)
+2026-05-05 02:41:24: ✅ Redis connected (cache)
+2026-05-05 02:41:24: ✅ Redis connected (cache)
+2026-05-05 02:41:24: ✅ Redis connected (pubsub)
+2026-05-05 02:41:24: User connected: 7_fOfk86z-hZKNqEAAAB
+2026-05-05 02:41:24: ✅ Redis ready (pubsub)
+2026-05-05 02:41:24: ✅ Redis ready (cache)
+2026-05-05 02:41:24: ✅ Redis ready (cache)
+2026-05-05 02:41:24: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:24: Server is running on port 3000
+2026-05-05 02:41:24: ✅ Redis ready (pubsub)
+2026-05-05 02:41:24: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:24: Server is running on port 3000
+2026-05-05 02:41:24: ✅ Redis connected (pubsub)
+2026-05-05 02:41:24: ✅ Redis connected (cache)
+2026-05-05 02:41:24: ✅ Redis connected (cache)
+2026-05-05 02:41:24: ✅ Redis connected (pubsub)
+2026-05-05 02:41:24: ✅ Redis ready (cache)
+2026-05-05 02:41:24: ✅ Redis ready (cache)
+2026-05-05 02:41:24: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:24: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:24: Server is running on port 3000
+2026-05-05 02:41:24: Server is running on port 3000
+2026-05-05 02:41:24: ✅ Redis ready (cache)
+2026-05-05 02:41:24: ✅ Redis ready (cache)
+2026-05-05 02:41:24: ✅ Redis ready (pubsub)
+2026-05-05 02:41:24: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:24: Server is running on port 3000
+2026-05-05 02:41:24: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:24: ✅ Redis ready (pubsub)
+2026-05-05 02:41:24: ✅ Redis ready (cache)
+2026-05-05 02:41:24: ✅ Redis ready (cache)
+2026-05-05 02:41:24: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:24: Server is running on port 3000
+2026-05-05 02:41:24: ✅ Redis ready (pubsub)
+2026-05-05 02:41:24: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:24: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:24: Server is running on port 3000
+2026-05-05 02:41:25: ✅ Redis connected (pubsub)
+2026-05-05 02:41:25: User connected: 6HZEASa6C620-3y_AAAB
+2026-05-05 02:41:25: User disconnected: 6HZEASa6C620-3y_AAAB
+2026-05-05 02:41:25: User connected: dB14-BraNTGww4NAAAAB
+2026-05-05 02:41:25: ✅ Redis ready (pubsub)
+2026-05-05 02:41:25: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:41:25: Server is running on port 3000
+2026-05-05 02:41:25: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:25: ✅ MongoDB Atlas Connected
+2026-05-05 02:41:26: User connected: SwqYT09pOHQgKPA2AAAD
+2026-05-05 02:41:26: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:27: User connected: qxDdZ9xCy4vL6TFNAAAB
+2026-05-05 02:41:27: User connected: 6RCKaCS1PorXkRUcAAAD
+2026-05-05 02:41:28: User connected: khvPZsqiSxRXvhKmAAAD
+2026-05-05 02:41:28: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:41:28: User disconnected: khvPZsqiSxRXvhKmAAAD
+2026-05-05 02:41:29: User connected: eXJS6p-ym7F6ReJxAAAF
+2026-05-05 02:41:29: User connected: dBPjaDAVz50zNVeeAAAF
+2026-05-05 02:41:29: User connected: _nK2j8RGmPSAlC8bAAAF
+2026-05-05 02:41:29: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:29: User disconnected: _nK2j8RGmPSAlC8bAAAF
+2026-05-05 02:41:30: User connected: o3RU5s65rhjlPZ_1AAAD
+2026-05-05 02:41:31: User connected: vITI2CmGsg68WbjOAAAH
+2026-05-05 02:41:31: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:31: User connected: sJBB5n5lW0Ip1O5XAAAH
+2026-05-05 02:41:32: User connected: TPBGBwA380yLjO33AAAH
+2026-05-05 02:41:33: User connected: tcqa_cIZnypU7IEOAAAF
+2026-05-05 02:41:33: User connected: 3K24iUqGLI1oRDP2AAAJ
+2026-05-05 02:41:33: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:34: User connected: 7h-nFfcWiN5V1fS-AAAJ
+2026-05-05 02:41:34: User connected: mlDyFiz6S-UW_Qu9AAAJ
+2026-05-05 02:41:34: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:35: User connected: qDmYPUMvhu8ggF90AAAH
+2026-05-05 02:41:35: User connected: Al3DoHsPWy04hT3qAAAL
+2026-05-05 02:41:36: User connected: eeXO31NxaPyxaPMvAAAL
+2026-05-05 02:41:36: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:41:36: User connected: pOKtIvAJOD3OeLf8AAAL
+2026-05-05 02:41:36: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:36: User disconnected: pOKtIvAJOD3OeLf8AAAL
+2026-05-05 02:41:38: User connected: ql1zl7mQJWpX9T3sAAAN
+2026-05-05 02:41:38: User connected: hNiETTFuJ4ZP2qfKAAAJ
+2026-05-05 02:41:38: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:38: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:41:38: User disconnected: hNiETTFuJ4ZP2qfKAAAJ
+2026-05-05 02:41:39: User connected: U40EFCGquFF596AUAAAL
+2026-05-05 02:41:39: User connected: KDDDZOsCFKegnVaYAAAN
+2026-05-05 02:41:39: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:40: User connected: XaQ3nHEfKpLjV0umAAAP
+2026-05-05 02:41:40: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:41: User connected: LiUgvLQP9b247KEfAAAN
+2026-05-05 02:41:42: User connected: hfjd706BTISK5R1WAAAP
+2026-05-05 02:41:42: User connected: pJMvk6Jqefjwt0zFAAAB
+2026-05-05 02:41:42: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:42: User disconnected: pJMvk6Jqefjwt0zFAAAB
+2026-05-05 02:41:43: User connected: I8pIKRpHprfM85jpAAAR
+2026-05-05 02:41:43: User connected: HWYzVFINnbhUllyiAAAP
+2026-05-05 02:41:45: User connected: LviGhMa_gRRbcCm9AAAD
+2026-05-05 02:41:45: User connected: 5Tl46qox5VHSrS8cAAAR
+2026-05-05 02:41:45: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:46: User connected: 7gRqXJzNQpV7rfn3AAAT
+2026-05-05 02:41:46: User connected: jsMXhZqitkkuAWb6AAAR
+2026-05-05 02:41:47: User connected: WxCXsiCaQkjoNMZyAAAT
+2026-05-05 02:41:47: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:41:47: User connected: QfexIP4xBtIga4mMAAAF
+2026-05-05 02:41:49: User connected: f00KLhfFjAmaLjyHAAAT
+2026-05-05 02:41:50: User connected: XpHz7gFGGsIKQHDVAAAN
+2026-05-05 02:41:51: User connected: sXiHdSMF5x0_pfHMAAAV
+2026-05-05 02:41:53: User connected: Ovji0mwIsEInGGzLAAAP
+2026-05-05 02:41:53: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:41:55: User connected: UJZzrzQsFm_Oo_vSAAAX
+2026-05-05 02:41:57: User connected: t5IS8DBMZd-GkT3QAAAR
+2026-05-05 02:41:59: User connected: UZKt3NiRU9-K-H09AAAZ
+2026-05-05 02:42:00: User connected: 4HuOWjgJP44vWbCeAAAT
+2026-05-05 02:42:02: User connected: ApIO1otW3H7ohMZWAAAV
+2026-05-05 02:42:04: User connected: 0k88MRMBM4or9KBWAAAb
+2026-05-05 02:42:05: User connected: gNPVe7YRT2SIYAcZAAAX
+2026-05-05 02:42:07: User connected: W3t8bCUl_tK1fyQIAAAd
+2026-05-05 02:42:08: User connected: _Wz4VsjaI6TIdCbSAAAZ
+2026-05-05 02:42:09: User disconnected: 7_fOfk86z-hZKNqEAAAB
+2026-05-05 02:42:10: User connected: bZC-PbONygw5B6r3AAAf
+2026-05-05 02:42:10: User disconnected: dB14-BraNTGww4NAAAAB
+2026-05-05 02:42:11: User disconnected: SwqYT09pOHQgKPA2AAAD
+2026-05-05 02:42:12: User connected: 0QuyeY6gHbpjlA35AAAb
+2026-05-05 02:42:12: User disconnected: qxDdZ9xCy4vL6TFNAAAB
+2026-05-05 02:42:12: User disconnected: 6RCKaCS1PorXkRUcAAAD
+2026-05-05 02:42:14: User connected: X8k2BFivISSMhGcdAAAh
+2026-05-05 02:42:14: User disconnected: eXJS6p-ym7F6ReJxAAAF
+2026-05-05 02:42:14: User disconnected: dBPjaDAVz50zNVeeAAAF
+2026-05-05 02:42:15: User disconnected: o3RU5s65rhjlPZ_1AAAD
+2026-05-05 02:42:15: User connected: lrzaFG_Tt0wS4MKyAAAd
+2026-05-05 02:42:15: User disconnected: lrzaFG_Tt0wS4MKyAAAd
+2026-05-05 02:42:16: User disconnected: vITI2CmGsg68WbjOAAAH
+2026-05-05 02:42:16: User disconnected: sJBB5n5lW0Ip1O5XAAAH
+2026-05-05 02:42:17: User connected: ftmCOnt6QQiIwWPGAAAf
+2026-05-05 02:42:17: User disconnected: TPBGBwA380yLjO33AAAH
+2026-05-05 02:42:18: User disconnected: tcqa_cIZnypU7IEOAAAF
+2026-05-05 02:42:18: User disconnected: 3K24iUqGLI1oRDP2AAAJ
+2026-05-05 02:42:19: User connected: QOhY-IVN7iXN64lLAAAj
+2026-05-05 02:42:19: User disconnected: 7h-nFfcWiN5V1fS-AAAJ
+2026-05-05 02:42:19: User disconnected: mlDyFiz6S-UW_Qu9AAAJ
+2026-05-05 02:42:20: User connected: fcMb822N0x8_UFWHAAAh
+2026-05-05 02:42:20: User disconnected: qDmYPUMvhu8ggF90AAAH
+2026-05-05 02:42:20: User disconnected: Al3DoHsPWy04hT3qAAAL
+2026-05-05 02:42:21: User disconnected: eeXO31NxaPyxaPMvAAAL
+2026-05-05 02:42:22: User connected: 7q6nZ6oWW3Ofx0scAAAl
+2026-05-05 02:42:23: User connected: ocp1gMhlbZWByZ3XAAAj
+2026-05-05 02:42:23: User disconnected: ql1zl7mQJWpX9T3sAAAN
+2026-05-05 02:42:24: User disconnected: U40EFCGquFF596AUAAAL
+2026-05-05 02:42:24: User disconnected: KDDDZOsCFKegnVaYAAAN
+2026-05-05 02:42:25: User connected: QmV6-3RezxjGfuL_AAAn
+2026-05-05 02:42:25: User disconnected: XaQ3nHEfKpLjV0umAAAP
+2026-05-05 02:42:26: User disconnected: LiUgvLQP9b247KEfAAAN
+2026-05-05 02:42:27: User connected: UoeetqqsCxpC473SAAAp
+2026-05-05 02:42:27: User disconnected: hfjd706BTISK5R1WAAAP
+2026-05-05 02:42:28: User disconnected: HWYzVFINnbhUllyiAAAP
+2026-05-05 02:42:28: User disconnected: I8pIKRpHprfM85jpAAAR
+2026-05-05 02:42:29: User connected: 8_LwDvxpAL3ZNLanAAAl
+2026-05-05 02:42:30: User disconnected: 5Tl46qox5VHSrS8cAAAR
+2026-05-05 02:42:30: User disconnected: LviGhMa_gRRbcCm9AAAD
+2026-05-05 02:42:31: User connected: Qi-FLzn6yDpcjmikAAAr
+2026-05-05 02:42:31: User disconnected: 7gRqXJzNQpV7rfn3AAAT
+2026-05-05 02:42:31: User disconnected: jsMXhZqitkkuAWb6AAAR
+2026-05-05 02:42:32: User disconnected: QfexIP4xBtIga4mMAAAF
+2026-05-05 02:42:33: User connected: vOiU524L1jg7NcQUAAAn
+2026-05-05 02:42:34: User disconnected: f00KLhfFjAmaLjyHAAAT
+2026-05-05 02:42:34: User connected: 3f-61Be5zpBuYVfjAAAt
+2026-05-05 02:42:35: User disconnected: XpHz7gFGGsIKQHDVAAAN
+2026-05-05 02:42:36: User connected: UiF2YhhvChi_CFRiAAAp
+2026-05-05 02:42:36: User disconnected: sXiHdSMF5x0_pfHMAAAV
+2026-05-05 02:42:37: User connected: pV3PZgIDmEPmkFHYAAAv
+2026-05-05 02:42:38: User disconnected: Ovji0mwIsEInGGzLAAAP
+2026-05-05 02:42:39: User connected: QFYGciOABTsSFQ7cAAAs
+2026-05-05 02:42:39: User connected: ta_XKmZ3oVKdrGQsAAAt
+2026-05-05 02:42:40: User disconnected: UJZzrzQsFm_Oo_vSAAAX
+2026-05-05 02:42:40: User connected: YLhed4NNChR3EcLcAAAx
+2026-05-05 02:42:41: User connected: wLlSC_TVvc2DuQZyAAAV
+2026-05-05 02:42:42: User disconnected: t5IS8DBMZd-GkT3QAAAR
+2026-05-05 02:42:42: User connected: 3UbEZ27RpvLn9eQHAAAw
+2026-05-05 02:42:42: User connected: MQqX97kGp9lg-949AAAx
+2026-05-05 02:42:44: User connected: JJVy0TR5dN67XxOLAAAz
+2026-05-05 02:42:44: User connected: 8fYOvgvTkH4YhzHiAAAX
+2026-05-05 02:42:44: User disconnected: UZKt3NiRU9-K-H09AAAZ
+2026-05-05 02:42:45: User disconnected: 4HuOWjgJP44vWbCeAAAT
+2026-05-05 02:42:46: User connected: g2wt3jvUFVJy3y0hAAA0
+2026-05-05 02:42:46: User connected: vFQy5VNg8ndOzgRYAAA1
+2026-05-05 02:42:46: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:42:47: User connected: SmL-TOVr8MgRhfB5AAA1
+2026-05-05 02:42:47: User disconnected: ApIO1otW3H7ohMZWAAAV
+2026-05-05 02:42:48: User connected: JY8cdcWEDFtNbFPjAAA3
+2026-05-05 02:42:49: User disconnected: 0k88MRMBM4or9KBWAAAb
+2026-05-05 02:42:50: User connected: 3u_2-C4dC_allcp0AAA3
+2026-05-05 02:42:50: User disconnected: gNPVe7YRT2SIYAcZAAAX
+2026-05-05 02:42:52: User connected: zkUWtq1GcRcGK7hsAAA5
+2026-05-05 02:42:52: User disconnected: W3t8bCUl_tK1fyQIAAAd
+2026-05-05 02:42:53: User disconnected: _Wz4VsjaI6TIdCbSAAAZ
+2026-05-05 02:42:54: User connected: Dqom8zzP_Bl1TKYhAAA5
+2026-05-05 02:42:55: User disconnected: bZC-PbONygw5B6r3AAAf
+2026-05-05 02:42:56: User connected: ouhuPu3rNwdcCGtlAAA7
+2026-05-05 02:42:57: User disconnected: 0QuyeY6gHbpjlA35AAAb
+2026-05-05 02:42:58: User connected: lUtEnYzstw84tpNZAAA7
+2026-05-05 02:42:59: User disconnected: X8k2BFivISSMhGcdAAAh
+2026-05-05 02:43:00: User connected: Ou5NQshbEvAGtknVAAA9
+2026-05-05 02:43:01: User connected: 1Ur63V0XI9ueEapfAAA_
+2026-05-05 02:43:02: User disconnected: ftmCOnt6QQiIwWPGAAAf
+2026-05-05 02:43:03: User connected: XmOfpFh7Y38XewLAAAA9
+2026-05-05 02:43:04: User disconnected: QOhY-IVN7iXN64lLAAAj
+2026-05-05 02:43:05: User connected: 0JOd_X2XtdQp6pFgAABB
+2026-05-05 02:43:05: User disconnected: fcMb822N0x8_UFWHAAAh
+2026-05-05 02:43:06: User connected: kj5Se8KZoypnp66UAAA_
+2026-05-05 02:43:07: User connected: 7Ks22TQ7iMKzfjfFAABD
+2026-05-05 02:43:07: User disconnected: 7q6nZ6oWW3Ofx0scAAAl
+2026-05-05 02:43:08: User connected: 7EBh-gIhZJ1QXjznAABB
+2026-05-05 02:43:08: User disconnected: ocp1gMhlbZWByZ3XAAAj
+2026-05-05 02:43:09: User connected: XStTgCNjCmxH8rG0AABF
+2026-05-05 02:43:10: User disconnected: QmV6-3RezxjGfuL_AAAn
+2026-05-05 02:43:11: User connected: 293o-PMs5WCJiGOqAABD
+2026-05-05 02:43:11: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 02:43:11: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 02:43:12: User disconnected: UoeetqqsCxpC473SAAAp
+2026-05-05 02:43:12: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:12: ✅ Redis connected (cache)
+2026-05-05 02:43:12: ✅ Redis connected (cache)
+2026-05-05 02:43:12: ✅ Redis connected (pubsub)
+2026-05-05 02:43:12: ✅ Redis ready (cache)
+2026-05-05 02:43:12: ✅ Redis ready (cache)
+2026-05-05 02:43:12: ✅ Redis ready (pubsub)
+2026-05-05 02:43:12: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:12: Server is running on port 3000
+2026-05-05 02:43:13: User connected: ddcIYNbidr81lUKjAABH
+2026-05-05 02:43:13: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:13: ✅ Redis connected (pubsub)
+2026-05-05 02:43:13: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-05-05 02:43:13: ✅ Redis ready (pubsub)
+2026-05-05 02:43:13: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:13: Server is running on port 3000
+2026-05-05 02:43:14: User disconnected: 8_LwDvxpAL3ZNLanAAAl
+2026-05-05 02:43:14: ✅ Redis connected (cache)
+2026-05-05 02:43:14: ✅ Redis connected (pubsub)
+2026-05-05 02:43:14: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:14: ✅ Redis ready (cache)
+2026-05-05 02:43:14: ✅ Redis ready (pubsub)
+2026-05-05 02:43:14: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:14: Server is running on port 3000
+2026-05-05 02:43:14: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 02:43:15: User connected: oMsIsZf03igHnN9VAABF
+2026-05-05 02:43:15: ✅ Redis connected (cache)
+2026-05-05 02:43:15: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:15: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 02:43:15: ✅ Redis ready (cache)
+2026-05-05 02:43:16: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:16: ✅ Redis connected (pubsub)
+2026-05-05 02:43:16: ✅ Redis connected (cache)
+2026-05-05 02:43:16: User connected: T025vcvw3gEB5-9cAABJ
+2026-05-05 02:43:16: User disconnected: Qi-FLzn6yDpcjmikAAAr
+2026-05-05 02:43:16: ✅ Redis connected (pubsub)
+2026-05-05 02:43:16: ✅ Redis ready (pubsub)
+2026-05-05 02:43:16: ✅ Redis ready (cache)
+2026-05-05 02:43:16: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:16: Server is running on port 3000
+2026-05-05 02:43:16: ✅ Redis ready (pubsub)
+2026-05-05 02:43:16: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:16: Server is running on port 3000
+2026-05-05 02:43:17: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 02:43:17: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 02:43:17: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:17: ✅ Redis connected (cache)
+2026-05-05 02:43:17: ✅ Redis connected (pubsub)
+2026-05-05 02:43:18: ✅ Redis connected (cache)
+2026-05-05 02:43:18: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:18: ✅ Redis connected (pubsub)
+2026-05-05 02:43:18: User connected: 4UsILLCOBPY0hoaCAABH
+2026-05-05 02:43:18: User disconnected: vOiU524L1jg7NcQUAAAn
+2026-05-05 02:43:18: ✅ Redis ready (cache)
+2026-05-05 02:43:18: ✅ Redis ready (pubsub)
+2026-05-05 02:43:18: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:18: Server is running on port 3000
+2026-05-05 02:43:18: ✅ Redis ready (cache)
+2026-05-05 02:43:18: ✅ Redis ready (pubsub)
+2026-05-05 02:43:18: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:18: Server is running on port 3000
+2026-05-05 02:43:19: User connected: 3oe_ojwE-9BMegSIAABL
+2026-05-05 02:43:19: User disconnected: 3f-61Be5zpBuYVfjAAAt
+2026-05-05 02:43:19: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 02:43:19: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-05-05 02:43:19: ✅ Redis connected (cache)
+2026-05-05 02:43:19: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:19: ✅ Redis connected (pubsub)
+2026-05-05 02:43:19: ✅ Redis connected (cache)
+2026-05-05 02:43:19: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:19: ✅ Redis connected (pubsub)
+2026-05-05 02:43:20: ✅ Redis ready (cache)
+2026-05-05 02:43:20: ✅ Redis ready (pubsub)
+2026-05-05 02:43:20: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:20: Server is running on port 3000
+2026-05-05 02:43:20: ✅ Redis ready (cache)
+2026-05-05 02:43:20: ✅ Redis ready (pubsub)
+2026-05-05 02:43:20: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:20: Server is running on port 3000
+2026-05-05 02:43:21: User connected: qf7x9sFlBx0bjWF0AABJ
+2026-05-05 02:43:21: User disconnected: UiF2YhhvChi_CFRiAAAp
+2026-05-05 02:43:21: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 02:43:21: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 02:43:21: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:21: ✅ Redis connected (cache)
+2026-05-05 02:43:21: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:21: ✅ Redis connected (cache)
+2026-05-05 02:43:21: ✅ Redis connected (pubsub)
+2026-05-05 02:43:22: User disconnected: pV3PZgIDmEPmkFHYAAAv
+2026-05-05 02:43:22: ✅ Redis ready (cache)
+2026-05-05 02:43:22: ✅ Redis ready (cache)
+2026-05-05 02:43:22: ✅ Redis ready (pubsub)
+2026-05-05 02:43:22: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:22: Server is running on port 3000
+2026-05-05 02:43:22: ✅ Redis connected (pubsub)
+2026-05-05 02:43:23: User connected: dcewHSLrLMYVm8bMAABN
+2026-05-05 02:43:23: ✅ Redis ready (pubsub)
+2026-05-05 02:43:23: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:23: Server is running on port 3000
+2026-05-05 02:43:23: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-05-05 02:43:23: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:23: ✅ Redis connected (pubsub)
+2026-05-05 02:43:23: ✅ Redis connected (cache)
+2026-05-05 02:43:24: ✅ Redis ready (pubsub)
+2026-05-05 02:43:24: User connected: 3gHtc6jzQNxmNExWAAAB
+2026-05-05 02:43:24: ✅ Redis ready (cache)
+2026-05-05 02:43:24: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:24: User disconnected: 3gHtc6jzQNxmNExWAAAB
+2026-05-05 02:43:24: Server is running on port 3000
+2026-05-05 02:43:24: User disconnected: QFYGciOABTsSFQ7cAAAs
+2026-05-05 02:43:24: User disconnected: ta_XKmZ3oVKdrGQsAAAt
+2026-05-05 02:43:25: User connected: Uy3q7LUKgP3VGrnkAAAB
+2026-05-05 02:43:26: User connected: Up2JH78gYJL2VUDcAAAD
+2026-05-05 02:43:26: User connected: drf_DJAsCdCM-2DOAAAB
+2026-05-05 02:43:28: User connected: os_jLnvt5o74cQWnAAAE
+2026-05-05 02:43:28: User connected: WtkGa0UztE12cY88AAAF
+2026-05-05 02:43:29: User connected: 6dg4glOzDQ96hVR1AAAD
+2026-05-05 02:43:29: User connected: 48s3pgDPBItMSWW3AAAH
+2026-05-05 02:43:29: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:43:30: User connected: G4V-ClgmKa3PM_WJAAAF
+2026-05-05 02:43:30: User disconnected: 48s3pgDPBItMSWW3AAAH
+2026-05-05 02:43:30: User connected: zC1ou3pEgeSqMRojAAAJ
+2026-05-05 02:43:31: User connected: tYkOz-GgmTfMv43NAAAF
+2026-05-05 02:43:31: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:43:31: User disconnected: tYkOz-GgmTfMv43NAAAF
+2026-05-05 02:43:32: User connected: Zf6cIWghWOKBpc6pAAAL
+2026-05-05 02:43:32: User connected: MLk0PNqjmWP1HP0PAAAN
+2026-05-05 02:43:34: User connected: nEna81jUTfcsschVAAAH
+2026-05-05 02:43:34: User connected: 4rjz16LACdU2RSglAAAH
+2026-05-05 02:43:34: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:43:34: User disconnected: 4rjz16LACdU2RSglAAAH
+2026-05-05 02:43:35: User connected: 0fyNSPQfB3O_upp-AAAP
+2026-05-05 02:43:35: User connected: xAkv4_3PKBt2zzn_AAAJ
+2026-05-05 02:43:36: User connected: E-HQrqB_U3af31d4AAAJ
+2026-05-05 02:43:37: User connected: zDTyI_ClaiDngdkKAAAR
+2026-05-05 02:43:37: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:43:38: User connected: _TfjGYTt8Xb7EycnAAAT
+2026-05-05 02:43:39: User connected: BAPvnHHPgK2t8L8pAAAL
+2026-05-05 02:43:41: User connected: Nkbs4iMP9rBU7SoIAAAV
+2026-05-05 02:43:43: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 02:43:43: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-05-05 02:43:43: User connected: 3Kqjund1zpwoSZ98AAAX
+2026-05-05 02:43:43: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:43:43: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:43: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:43: ✅ Redis connected (cache)
+2026-05-05 02:43:43: ✅ Redis connected (pubsub)
+2026-05-05 02:43:43: ✅ Redis connected (cache)
+2026-05-05 02:43:44: ✅ Redis ready (cache)
+2026-05-05 02:43:44: ✅ Redis ready (pubsub)
+2026-05-05 02:43:44: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:44: Server is running on port 3000
+2026-05-05 02:43:44: ✅ Redis ready (cache)
+2026-05-05 02:43:44: ✅ Redis connected (pubsub)
+2026-05-05 02:43:45: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:43:45: ✅ Redis ready (pubsub)
+2026-05-05 02:43:45: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:45: Server is running on port 3000
+2026-05-05 02:43:45: ✅ Redis connected (cache)
+2026-05-05 02:43:45: ✅ Redis connected (pubsub)
+2026-05-05 02:43:45: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:45: ✅ Redis ready (cache)
+2026-05-05 02:43:45: ✅ Redis ready (pubsub)
+2026-05-05 02:43:45: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:45: Server is running on port 3000
+2026-05-05 02:43:46: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 02:43:46: ✅ Redis connected (pubsub)
+2026-05-05 02:43:46: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:46: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 02:43:46: ✅ Redis ready (pubsub)
+2026-05-05 02:43:47: ✅ Redis connected (cache)
+2026-05-05 02:43:47: ✅ Redis connected (pubsub)
+2026-05-05 02:43:47: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:47: ✅ Redis connected (cache)
+2026-05-05 02:43:47: ✅ Redis ready (cache)
+2026-05-05 02:43:47: ✅ Redis ready (pubsub)
+2026-05-05 02:43:47: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:47: Server is running on port 3000
+2026-05-05 02:43:47: ✅ Redis ready (cache)
+2026-05-05 02:43:47: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:47: Server is running on port 3000
+2026-05-05 02:43:48: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 02:43:48: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:43:49: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:49: ✅ Redis connected (cache)
+2026-05-05 02:43:49: ✅ Redis connected (pubsub)
+2026-05-05 02:43:49: ✅ Redis connected (pubsub)
+2026-05-05 02:43:49: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:49: ✅ Redis ready (cache)
+2026-05-05 02:43:49: ✅ Redis ready (pubsub)
+2026-05-05 02:43:49: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:49: Server is running on port 3000
+2026-05-05 02:43:49: ✅ Redis ready (pubsub)
+2026-05-05 02:43:50: ✅ Redis connected (cache)
+2026-05-05 02:43:50: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 02:43:51: ✅ Redis connected (cache)
+2026-05-05 02:43:51: ✅ Redis connected (pubsub)
+2026-05-05 02:43:51: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:51: ✅ Redis ready (cache)
+2026-05-05 02:43:51: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:51: Server is running on port 3000
+2026-05-05 02:43:51: ✅ Redis ready (cache)
+2026-05-05 02:43:51: ✅ Redis ready (pubsub)
+2026-05-05 02:43:51: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:51: Server is running on port 3000
+2026-05-05 02:43:52: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-05-05 02:43:52: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 02:43:52: ✅ Redis connected (cache)
+2026-05-05 02:43:52: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:52: ✅ Redis connected (pubsub)
+2026-05-05 02:43:52: ✅ Redis connected (pubsub)
+2026-05-05 02:43:52: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:52: ✅ Redis connected (cache)
+2026-05-05 02:43:52: ✅ Redis ready (cache)
+2026-05-05 02:43:52: ✅ Redis ready (pubsub)
+2026-05-05 02:43:52: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:52: Server is running on port 3000
+2026-05-05 02:43:53: ✅ Redis ready (pubsub)
+2026-05-05 02:43:53: ✅ Redis ready (cache)
+2026-05-05 02:43:53: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:53: Server is running on port 3000
+2026-05-05 02:43:53: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 02:43:54: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-05-05 02:43:54: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:54: ✅ Redis connected (cache)
+2026-05-05 02:43:54: ✅ Redis connected (pubsub)
+2026-05-05 02:43:54: ✅ Redis connected (pubsub)
+2026-05-05 02:43:54: ✅ Redis connected (cache)
+2026-05-05 02:43:54: ✅ MongoDB Atlas Connected
+2026-05-05 02:43:54: ✅ Redis ready (cache)
+2026-05-05 02:43:54: ✅ Redis ready (pubsub)
+2026-05-05 02:43:54: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:54: Server is running on port 3000
+2026-05-05 02:43:55: ✅ Redis ready (pubsub)
+2026-05-05 02:43:55: ✅ Redis ready (cache)
+2026-05-05 02:43:55: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:43:55: Server is running on port 3000
+2026-05-05 02:43:56: User connected: yhhC1PDVV6EiQidjAAAC
+2026-05-05 02:43:56: User connected: 4dT9ld1ssV5H1lV5AAAD
+2026-05-05 02:43:57: User connected: HxffJIBMwYasMgjzAAAB
+2026-05-05 02:43:58: User connected: h43tCR_kGSaxoPLpAAAB
+2026-05-05 02:43:59: User connected: J9A1WJlCeGodiv3fAAAF
+2026-05-05 02:44:00: User connected: isQj37TLyJS71CJOAAAH
+2026-05-05 02:44:01: User connected: zxkLfWNE_p4KZY-sAAAD
+2026-05-05 02:44:01: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:44:01: User disconnected: zxkLfWNE_p4KZY-sAAAD
+2026-05-05 02:44:02: User connected: jDza_mRFg0VoQDXiAAAJ
+2026-05-05 02:44:02: User connected: 49lHvZsH0T69ykbOAAAD
+2026-05-05 02:44:03: User connected: 0KO8chhFZVSe0an1AAAF
+2026-05-05 02:44:03: User connected: vDOqqd9CvD0uzlgFAAAL
+2026-05-05 02:44:03: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:44:05: User connected: SZj1v6ZPuAPZFEVyAAAN
+2026-05-05 02:44:05: User connected: SNqFFU19w56ZvRWrAAAF
+2026-05-05 02:44:05: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:44:05: User disconnected: SZj1v6ZPuAPZFEVyAAAN
+2026-05-05 02:44:06: User connected: z9rzf_5SbZKHmjUSAAAP
+2026-05-05 02:44:06: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:44:07: User connected: cumYc_xVnD1b29S0AAAR
+2026-05-05 02:44:08: User connected: huirCtJHdLiceVVgAAAH
+2026-05-05 02:44:08: User connected: ubyF4oKqqJp457rGAAAH
+2026-05-05 02:44:08: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:44:09: User connected: UTR251ajLrlP2FUTAAAT
+2026-05-05 02:44:10: User connected: JAO86-QFeb0uIaWNAAAV
+2026-05-05 02:44:10: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:44:11: User connected: 1eB6_nPoJvTODC5nAAAX
+2026-05-05 02:44:11: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:44:12: User connected: l2BnPFApycFuoubEAAAK
+2026-05-05 02:44:12: User connected: MHYd7CRnWwr4GrhyAAAL
+2026-05-05 02:44:13: User connected: X189QdxxUNnwkg6tAAAZ
+2026-05-05 02:44:13: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:44:14: User connected: yexNVt_srkGDJAGAAAAb
+2026-05-05 02:44:15: User connected: aR1TE9r2VLFvzaJ_AAAO
+2026-05-05 02:44:15: User connected: cmEhSuoiIvEgjh86AAAP
+2026-05-05 02:44:15: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:44:15: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:44:16: User connected: 2-pXzOz2F8pGRrIIAAAR
+2026-05-05 02:44:16: User disconnected: 2-pXzOz2F8pGRrIIAAAR
+2026-05-05 02:44:18: User connected: GuHnWKU5xVputMfkAAAT
+2026-05-05 02:44:18: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:44:19: User connected: 59AUxkmZBczZ4_RFAAAd
+2026-05-05 02:44:19: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:44:20: User connected: 9KQapTod1shrPHtXAAAV
+2026-05-05 02:44:21: User connected: bf48EEiC1seeRxkLAAAf
+2026-05-05 02:44:21: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:44:23: User connected: wnJnaRre7wnG9n8ZAAAX
+2026-05-05 02:44:23: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:44:41: User disconnected: yhhC1PDVV6EiQidjAAAC
+2026-05-05 02:44:41: User disconnected: 4dT9ld1ssV5H1lV5AAAD
+2026-05-05 02:44:42: User disconnected: HxffJIBMwYasMgjzAAAB
+2026-05-05 02:44:43: User disconnected: h43tCR_kGSaxoPLpAAAB
+2026-05-05 02:44:44: User disconnected: J9A1WJlCeGodiv3fAAAF
+2026-05-05 02:44:45: User disconnected: isQj37TLyJS71CJOAAAH
+2026-05-05 02:44:47: User disconnected: jDza_mRFg0VoQDXiAAAJ
+2026-05-05 02:44:47: User disconnected: 49lHvZsH0T69ykbOAAAD
+2026-05-05 02:44:48: User disconnected: 0KO8chhFZVSe0an1AAAF
+2026-05-05 02:44:48: User disconnected: vDOqqd9CvD0uzlgFAAAL
+2026-05-05 02:44:50: User disconnected: SNqFFU19w56ZvRWrAAAF
+2026-05-05 02:44:51: User disconnected: z9rzf_5SbZKHmjUSAAAP
+2026-05-05 02:44:52: User disconnected: cumYc_xVnD1b29S0AAAR
+2026-05-05 02:44:53: User disconnected: ubyF4oKqqJp457rGAAAH
+2026-05-05 02:44:53: User disconnected: huirCtJHdLiceVVgAAAH
+2026-05-05 02:44:54: User disconnected: UTR251ajLrlP2FUTAAAT
+2026-05-05 02:44:55: User disconnected: JAO86-QFeb0uIaWNAAAV
+2026-05-05 02:44:56: User disconnected: 1eB6_nPoJvTODC5nAAAX
+2026-05-05 02:44:57: User disconnected: l2BnPFApycFuoubEAAAK
+2026-05-05 02:44:57: User disconnected: MHYd7CRnWwr4GrhyAAAL
+2026-05-05 02:44:58: User disconnected: X189QdxxUNnwkg6tAAAZ
+2026-05-05 02:44:59: User disconnected: yexNVt_srkGDJAGAAAAb
+2026-05-05 02:45:00: User disconnected: aR1TE9r2VLFvzaJ_AAAO
+2026-05-05 02:45:03: User disconnected: GuHnWKU5xVputMfkAAAT
+2026-05-05 02:45:04: User disconnected: 59AUxkmZBczZ4_RFAAAd
+2026-05-05 02:45:05: User disconnected: 9KQapTod1shrPHtXAAAV
+2026-05-05 02:45:06: User disconnected: bf48EEiC1seeRxkLAAAf
+2026-05-05 02:45:13: User disconnected: wnJnaRre7wnG9n8ZAAAX
+2026-05-05 02:45:13: User connected: X880bShzFateKCM9AAAZ
+2026-05-05 02:45:13: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:47:20: User disconnected: X880bShzFateKCM9AAAZ
+2026-05-05 02:47:20: User connected: HE5-1gcLhlt5n2zkAAAb
+2026-05-05 02:47:20: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-05-05 02:55:13: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 02:55:14: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 02:55:14: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-05-05 02:55:15: ✅ Redis connected (cache)
+2026-05-05 02:55:15: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ Redis connected (cache)
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:15: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ Redis connected (cache)
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:15: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ Redis connected (cache)
+2026-05-05 02:55:15: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ Redis connected (cache)
+2026-05-05 02:55:15: ✅ Redis connected (cache)
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ Redis connected (cache)
+2026-05-05 02:55:15: ✅ Redis connected (pubsub)
+2026-05-05 02:55:15: ✅ Redis connected (cache)
+2026-05-05 02:55:15: ✅ Redis ready (pubsub)
+2026-05-05 02:55:15: ✅ Redis ready (cache)
+2026-05-05 02:55:15: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:15: Server is running on port 3000
+2026-05-05 02:55:15: ✅ Redis ready (pubsub)
+2026-05-05 02:55:15: ✅ Redis ready (pubsub)
+2026-05-05 02:55:15: ✅ Redis ready (cache)
+2026-05-05 02:55:15: ✅ Redis ready (pubsub)
+2026-05-05 02:55:15: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:15: Server is running on port 3000
+2026-05-05 02:55:16: ✅ Redis ready (pubsub)
+2026-05-05 02:55:16: ✅ Redis ready (cache)
+2026-05-05 02:55:16: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:16: Server is running on port 3000
+2026-05-05 02:55:16: ✅ Redis ready (pubsub)
+2026-05-05 02:55:16: ✅ Redis ready (pubsub)
+2026-05-05 02:55:16: ✅ Redis ready (pubsub)
+2026-05-05 02:55:16: ✅ Redis ready (cache)
+2026-05-05 02:55:16: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:16: Server is running on port 3000
+2026-05-05 02:55:16: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:16: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:16: ✅ Redis ready (pubsub)
+2026-05-05 02:55:16: ✅ Redis ready (cache)
+2026-05-05 02:55:16: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:16: Server is running on port 3000
+2026-05-05 02:55:16: ✅ Redis ready (cache)
+2026-05-05 02:55:16: ✅ Redis ready (cache)
+2026-05-05 02:55:16: ✅ Redis ready (pubsub)
+2026-05-05 02:55:16: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:16: Server is running on port 3000
+2026-05-05 02:55:16: ✅ Redis ready (pubsub)
+2026-05-05 02:55:16: ✅ Redis ready (cache)
+2026-05-05 02:55:16: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:16: Server is running on port 3000
+2026-05-05 02:55:16: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:16: ✅ Redis connected (cache)
+2026-05-05 02:55:16: ✅ Redis connected (cache)
+2026-05-05 02:55:16: ✅ Redis connected (cache)
+2026-05-05 02:55:16: ✅ Redis connected (cache)
+2026-05-05 02:55:16: ✅ Redis connected (pubsub)
+2026-05-05 02:55:16: ✅ Redis ready (cache)
+2026-05-05 02:55:16: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:16: Server is running on port 3000
+2026-05-05 02:55:16: ✅ Redis ready (cache)
+2026-05-05 02:55:16: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:16: Server is running on port 3000
+2026-05-05 02:55:17: ✅ Redis ready (cache)
+2026-05-05 02:55:17: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:17: Server is running on port 3000
+2026-05-05 02:55:17: ✅ Redis ready (cache)
+2026-05-05 02:55:17: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:17: Server is running on port 3000
+2026-05-05 02:55:17: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:17: ✅ Redis ready (pubsub)
+2026-05-05 02:55:17: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:55:17: Server is running on port 3000
+2026-05-05 02:55:18: User connected: 8V2cEd75VYoFLpAvAAAB
+2026-05-05 02:55:18: User connected: Ik3GG0v3ZGt8ZTltAAAB
+2026-05-05 02:55:18: ✅ MongoDB Atlas Connected
+2026-05-05 02:55:19: User connected: j-UZQTfnPvh5Du9uAAAC
+2026-05-05 02:55:19: User connected: y1OuS_144xqTR2RjAAAD
+2026-05-05 02:55:19: User disconnected: j-UZQTfnPvh5Du9uAAAC
+2026-05-05 02:55:21: User connected: 6CcmZvqdW5s1FrXCAAAF
+2026-05-05 02:55:21: User connected: UFL9CtBTBkqL5tHlAAAD
+2026-05-05 02:55:21: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:22: User connected: AxlrS-g9Y_UGiUaTAAAH
+2026-05-05 02:55:22: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:23: User connected: PNRtz6-svKpmirBNAAAD
+2026-05-05 02:55:23: User connected: pKlsgQKQEy8kFLOZAAAJ
+2026-05-05 02:55:24: User connected: 9-m2cL0X0O0g9EznAAAF
+2026-05-05 02:55:25: User connected: rIHaZoNITHZEOy5IAAAM
+2026-05-05 02:55:25: User connected: xsY5LtZIYNR8NgAMAAAN
+2026-05-05 02:55:27: User connected: TylixTv1KO-2G2ADAAAF
+2026-05-05 02:55:27: User connected: ZsZ8HzVUEiGlQOzPAAAH
+2026-05-05 02:55:27: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:27: User disconnected: TylixTv1KO-2G2ADAAAF
+2026-05-05 02:55:28: User connected: jvo2iLPUHNVhDWQUAAAH
+2026-05-05 02:55:28: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:29: User connected: 7DF5M6zIzHnL8D6KAAAQ
+2026-05-05 02:55:29: User connected: N1sZLhpDrJJckfM-AAAR
+2026-05-05 02:55:29: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:31: User connected: -xcCR2jTUQC3POUnAAAJ
+2026-05-05 02:55:32: User disconnected: 7DF5M6zIzHnL8D6KAAAQ
+2026-05-05 02:55:32: User connected: qDn4ZW1QKN3n2gvSAAAT
+2026-05-05 02:55:32: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:33: User connected: ofU0uUWRdRI9oSiGAAAL
+2026-05-05 02:55:34: User connected: GGh3WYSgcHzIlisMAAAJ
+2026-05-05 02:55:34: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:34: User disconnected: GGh3WYSgcHzIlisMAAAJ
+2026-05-05 02:55:34: User connected: Qb1QIFwEy8yYiwNUAAAV
+2026-05-05 02:55:35: User connected: 9eqSFK1yfgOxwHdJAAAL
+2026-05-05 02:55:36: User connected: -yQphpI1RSnqXosRAAAN
+2026-05-05 02:55:36: User connected: W9eAx_uO10t7WB0rAAAX
+2026-05-05 02:55:37: User connected: ZThngYnZl6FwlIryAAAZ
+2026-05-05 02:55:38: User connected: wlUyVxQJacBXtIG1AAAN
+2026-05-05 02:55:39: User connected: 9VU9hMvtG_zYS3keAAAP
+2026-05-05 02:55:39: User connected: VxYNiUrc_LDRrPqmAAAb
+2026-05-05 02:55:40: User connected: YkOj0FipDJ8wVBxGAAAd
+2026-05-05 02:55:40: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:55:40: User connected: 0-3cOOKyI-9CqCtCAAAP
+2026-05-05 02:55:40: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:42: User connected: ET1mRTaANfjjfUMtAAAf
+2026-05-05 02:55:42: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:55:43: User connected: sAnfMZrXA35avs4ZAAAR
+2026-05-05 02:55:45: User connected: HuH5JWAAJJjxMr8nAAAh
+2026-05-05 02:55:45: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:55:47: User connected: tdh65wRnFTrPYXP3AAAT
+2026-05-05 02:55:47: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:55:48: User connected: nF1N7RAgdemHXWUfAAAj
+2026-05-05 02:55:50: User connected: MLI140kG670ogeK-AAAV
+2026-05-05 02:55:52: User connected: iqvrwpvPFo3O6H3rAAAl
+2026-05-05 02:55:52: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:56:03: User disconnected: Ik3GG0v3ZGt8ZTltAAAB
+2026-05-05 02:56:03: User disconnected: 8V2cEd75VYoFLpAvAAAB
+2026-05-05 02:56:04: User disconnected: y1OuS_144xqTR2RjAAAD
+2026-05-05 02:56:06: User disconnected: 6CcmZvqdW5s1FrXCAAAF
+2026-05-05 02:56:06: User disconnected: UFL9CtBTBkqL5tHlAAAD
+2026-05-05 02:56:07: User disconnected: AxlrS-g9Y_UGiUaTAAAH
+2026-05-05 02:56:08: User disconnected: PNRtz6-svKpmirBNAAAD
+2026-05-05 02:56:08: User disconnected: pKlsgQKQEy8kFLOZAAAJ
+2026-05-05 02:56:09: User disconnected: 9-m2cL0X0O0g9EznAAAF
+2026-05-05 02:56:10: User disconnected: rIHaZoNITHZEOy5IAAAM
+2026-05-05 02:56:10: User disconnected: xsY5LtZIYNR8NgAMAAAN
+2026-05-05 02:56:12: User disconnected: ZsZ8HzVUEiGlQOzPAAAH
+2026-05-05 02:56:13: User disconnected: jvo2iLPUHNVhDWQUAAAH
+2026-05-05 02:56:14: User disconnected: N1sZLhpDrJJckfM-AAAR
+2026-05-05 02:56:16: User disconnected: -xcCR2jTUQC3POUnAAAJ
+2026-05-05 02:56:17: User disconnected: qDn4ZW1QKN3n2gvSAAAT
+2026-05-05 02:56:18: User disconnected: ofU0uUWRdRI9oSiGAAAL
+2026-05-05 02:56:19: User disconnected: Qb1QIFwEy8yYiwNUAAAV
+2026-05-05 02:56:20: User disconnected: 9eqSFK1yfgOxwHdJAAAL
+2026-05-05 02:56:21: User disconnected: -yQphpI1RSnqXosRAAAN
+2026-05-05 02:56:21: User disconnected: W9eAx_uO10t7WB0rAAAX
+2026-05-05 02:56:21: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 02:56:21: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-05-05 02:56:22: User disconnected: ZThngYnZl6FwlIryAAAZ
+2026-05-05 02:56:22: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-05-05 02:56:22: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-05-05 02:56:22: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 02:56:22: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-05-05 02:56:23: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-05-05 02:56:23: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 02:56:23: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:23: User disconnected: wlUyVxQJacBXtIG1AAAN
+2026-05-05 02:56:23: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:23: ✅ Redis connected (cache)
+2026-05-05 02:56:23: ✅ Redis connected (pubsub)
+2026-05-05 02:56:23: ✅ Redis connected (cache)
+2026-05-05 02:56:23: ✅ Redis connected (pubsub)
+2026-05-05 02:56:23: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 02:56:23: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-05-05 02:56:23: ✅ Redis connected (pubsub)
+2026-05-05 02:56:23: ✅ Redis connected (cache)
+2026-05-05 02:56:23: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:23: ✅ Redis connected (pubsub)
+2026-05-05 02:56:23: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:23: ✅ Redis ready (cache)
+2026-05-05 02:56:23: ✅ Redis ready (pubsub)
+2026-05-05 02:56:23: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:23: Server is running on port 3000
+2026-05-05 02:56:23: ✅ Redis ready (pubsub)
+2026-05-05 02:56:23: ✅ Redis ready (cache)
+2026-05-05 02:56:23: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:23: Server is running on port 3000
+2026-05-05 02:56:23: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-05-05 02:56:23: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 02:56:24: User connected: KwoQSTYU7yckhx_zAAAB
+2026-05-05 02:56:24: User connected: g2-s6TNuWApQBl0OAAAD
+2026-05-05 02:56:24: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 02:56:24: ✅ Redis connected (cache)
+2026-05-05 02:56:24: ✅ Redis ready (pubsub)
+2026-05-05 02:56:24: ✅ Redis connected (cache)
+2026-05-05 02:56:24: ✅ Redis ready (cache)
+2026-05-05 02:56:24: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:24: Server is running on port 3000
+2026-05-05 02:56:24: ✅ Redis ready (pubsub)
+2026-05-05 02:56:24: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:24: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:24: ✅ Redis connected (pubsub)
+2026-05-05 02:56:24: ✅ Redis connected (cache)
+2026-05-05 02:56:24: ✅ Redis connected (pubsub)
+2026-05-05 02:56:24: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:24: ✅ Redis ready (cache)
+2026-05-05 02:56:24: ✅ Redis ready (cache)
+2026-05-05 02:56:24: ✅ Redis connected (cache)
+2026-05-05 02:56:25: ✅ Redis connected (pubsub)
+2026-05-05 02:56:25: ✅ Redis connected (cache)
+2026-05-05 02:56:25: ✅ Redis connected (pubsub)
+2026-05-05 02:56:25: ✅ Redis ready (pubsub)
+2026-05-05 02:56:25: ✅ Redis ready (cache)
+2026-05-05 02:56:25: ✅ Redis ready (pubsub)
+2026-05-05 02:56:25: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:25: Server is running on port 3000
+2026-05-05 02:56:25: ✅ Redis connected (pubsub)
+2026-05-05 02:56:25: ✅ Redis connected (pubsub)
+2026-05-05 02:56:25: ✅ Redis ready (cache)
+2026-05-05 02:56:25: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:25: Server is running on port 3000
+2026-05-05 02:56:25: ✅ Redis connected (pubsub)
+2026-05-05 02:56:25: ✅ Redis connected (cache)
+2026-05-05 02:56:25: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:25: ✅ Redis connected (cache)
+2026-05-05 02:56:25: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:25: ✅ Redis connected (pubsub)
+2026-05-05 02:56:25: ✅ Redis ready (pubsub)
+2026-05-05 02:56:25: ✅ Redis ready (cache)
+2026-05-05 02:56:25: ✅ Redis ready (pubsub)
+2026-05-05 02:56:25: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:25: Server is running on port 3000
+2026-05-05 02:56:25: ✅ Redis connected (cache)
+2026-05-05 02:56:25: ✅ Redis ready (pubsub)
+2026-05-05 02:56:25: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:25: Server is running on port 3000
+2026-05-05 02:56:25: ✅ Redis ready (pubsub)
+2026-05-05 02:56:25: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:25: Server is running on port 3000
+2026-05-05 02:56:25: ✅ Redis ready (pubsub)
+2026-05-05 02:56:25: ✅ Redis ready (cache)
+2026-05-05 02:56:25: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:25: Server is running on port 3000
+2026-05-05 02:56:25: ✅ Redis ready (cache)
+2026-05-05 02:56:25: ✅ Redis ready (pubsub)
+2026-05-05 02:56:25: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:25: Server is running on port 3000
+2026-05-05 02:56:26: ✅ Redis connected (cache)
+2026-05-05 02:56:26: ✅ Redis ready (cache)
+2026-05-05 02:56:26: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:26: Server is running on port 3000
+2026-05-05 02:56:26: User connected: 63QFCe6n5MLoPniXAAAB
+2026-05-05 02:56:26: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:26: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:26: ✅ Redis ready (cache)
+2026-05-05 02:56:26: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 02:56:26: Server is running on port 3000
+2026-05-05 02:56:27: ✅ MongoDB Atlas Connected
+2026-05-05 02:56:28: User connected: JHE16MZiSNKCRT-9AAAF
+2026-05-05 02:56:28: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:30: User connected: L1KHzQ2BXIBL75mFAAAD
+2026-05-05 02:56:30: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:30: User disconnected: L1KHzQ2BXIBL75mFAAAD
+2026-05-05 02:56:31: User connected: B9ItfOclVKrAKFJtAAAF
+2026-05-05 02:56:33: User connected: MUl2J7m5j-pdKoDuAAAH
+2026-05-05 02:56:34: User connected: Hs1w5faqO8IkhIZvAAAB
+2026-05-05 02:56:34: User disconnected: Hs1w5faqO8IkhIZvAAAB
+2026-05-05 02:56:35: User connected: a2twkeZvmBqfqA83AAAD
+2026-05-05 02:56:37: User connected: ZFhkU1u1j49ZGaNMAAAJ
+2026-05-05 02:56:37: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:38: User connected: UMyiepn5WCc1IQ5sAAAH
+2026-05-05 02:56:38: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:39: User connected: QFdIBvqIH81jMwJKAAAF
+2026-05-05 02:56:40: User connected: PYQ8MXUYnspI99JxAAAJ
+2026-05-05 02:56:42: User connected: XgBNxLEoQN_YzRCDAAAH
+2026-05-05 02:56:42: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:42: User disconnected: XgBNxLEoQN_YzRCDAAAH
+2026-05-05 02:56:43: User connected: PzktHUSez_7qyRoZAAAJ
+2026-05-05 02:56:43: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:43: User disconnected: PzktHUSez_7qyRoZAAAJ
+2026-05-05 02:56:43: User connected: flrh-vkptrtM2wEYAAAL
+2026-05-05 02:56:45: User connected: JukGOeDHlBczD0C1AAAL
+2026-05-05 02:56:45: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:45: User disconnected: JukGOeDHlBczD0C1AAAL
+2026-05-05 02:56:47: User connected: b0pqJTwEZmH5VUFFAAAN
+2026-05-05 02:56:47: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:49: User connected: nS7flmu2ZoSGD_6JAAAN
+2026-05-05 02:56:50: User connected: CiP7wcSDdibVO_SvAAAP
+2026-05-05 02:56:50: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:52: User connected: pQoQGKZafK4-Dx1bAAAP
+2026-05-05 02:56:52: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:53: User connected: jxBatkewy0755FWfAAAB
+2026-05-05 02:56:53: User disconnected: jxBatkewy0755FWfAAAB
+2026-05-05 02:56:53: User connected: GOa7SPV02F3CcXV0AAAD
+2026-05-05 02:56:54: User connected: f9ECy0eubaogPlJZAAAR
+2026-05-05 02:56:54: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:56: User connected: S8-nBj6iLIpHCHk_AAAF
+2026-05-05 02:56:56: User connected: AhzMnjKlNBaicxmAAAAT
+2026-05-05 02:56:56: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:56:57: User connected: Xqtorm1zjZEF-QckAAAH
+2026-05-05 02:56:59: User connected: W-dYBYeSRfEFJ_56AAAV
+2026-05-05 02:56:59: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:57:00: User connected: WyJXd9sQ7RNVK6AmAAAJ
+2026-05-05 02:57:01: User connected: wm6ROqi6Xf4JW5JqAAAX
+2026-05-05 02:57:02: User connected: oZsMX9Bzn8HRfOcKAAAL
+2026-05-05 02:57:02: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:57:09: User disconnected: KwoQSTYU7yckhx_zAAAB
+2026-05-05 02:57:11: User disconnected: 63QFCe6n5MLoPniXAAAB
+2026-05-05 02:57:11: User disconnected: oZsMX9Bzn8HRfOcKAAAL
+2026-05-05 02:57:12: User connected: kMeYlOYtQhFIw3tVAAAN
+2026-05-05 02:57:12: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 02:57:13: User disconnected: JHE16MZiSNKCRT-9AAAF
+2026-05-05 02:57:16: User disconnected: B9ItfOclVKrAKFJtAAAF
+2026-05-05 02:57:18: User disconnected: MUl2J7m5j-pdKoDuAAAH
+2026-05-05 02:57:20: User disconnected: a2twkeZvmBqfqA83AAAD
+2026-05-05 02:57:22: User disconnected: ZFhkU1u1j49ZGaNMAAAJ
+2026-05-05 02:57:23: User disconnected: UMyiepn5WCc1IQ5sAAAH
+2026-05-05 02:57:24: User disconnected: QFdIBvqIH81jMwJKAAAF
+2026-05-05 02:57:25: User disconnected: PYQ8MXUYnspI99JxAAAJ
+2026-05-05 02:57:28: User disconnected: flrh-vkptrtM2wEYAAAL
+2026-05-05 02:57:32: User disconnected: b0pqJTwEZmH5VUFFAAAN
+2026-05-05 02:57:34: User disconnected: nS7flmu2ZoSGD_6JAAAN
+2026-05-05 02:57:35: User disconnected: CiP7wcSDdibVO_SvAAAP
+2026-05-05 02:57:37: User disconnected: pQoQGKZafK4-Dx1bAAAP
+2026-05-05 02:57:38: User disconnected: GOa7SPV02F3CcXV0AAAD
+2026-05-05 02:57:39: User disconnected: f9ECy0eubaogPlJZAAAR
+2026-05-05 02:57:41: User disconnected: S8-nBj6iLIpHCHk_AAAF
+2026-05-05 02:57:41: User disconnected: AhzMnjKlNBaicxmAAAAT
+2026-05-05 02:57:42: User disconnected: Xqtorm1zjZEF-QckAAAH
+2026-05-05 02:57:44: User disconnected: W-dYBYeSRfEFJ_56AAAV
+2026-05-05 02:57:45: User disconnected: WyJXd9sQ7RNVK6AmAAAJ
+2026-05-05 02:57:46: User disconnected: wm6ROqi6Xf4JW5JqAAAX
+2026-05-05 03:01:39: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-05-05 03:01:39: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-05-05 03:01:39: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-05-05 03:01:39: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 03:01:40: User connected: 7aNHr2u-xiMBSudAAAAP
+2026-05-05 03:01:40: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-05-05 03:01:40: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-05-05 03:01:40: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-05-05 03:01:40: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-05-05 03:01:40: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:40: ✅ Redis connected (cache)
+2026-05-05 03:01:40: ✅ Redis connected (pubsub)
+2026-05-05 03:01:40: ✅ Redis connected (pubsub)
+2026-05-05 03:01:41: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 03:01:41: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-05-05 03:01:41: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 03:01:41: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-05-05 03:01:41: ✅ Redis connected (cache)
+2026-05-05 03:01:41: ✅ Redis connected (pubsub)
+2026-05-05 03:01:41: ✅ Redis connected (cache)
+2026-05-05 03:01:41: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:41: ✅ Redis ready (cache)
+2026-05-05 03:01:41: ✅ Redis ready (pubsub)
+2026-05-05 03:01:41: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:41: Server is running on port 3000
+2026-05-05 03:01:41: ✅ Redis ready (pubsub)
+2026-05-05 03:01:41: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-05-05 03:01:41: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-05-05 03:01:41: ✅ Redis connected (pubsub)
+2026-05-05 03:01:41: ✅ Redis connected (cache)
+2026-05-05 03:01:41: ✅ Redis connected (pubsub)
+2026-05-05 03:01:41: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:41: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:41: ✅ Redis ready (cache)
+2026-05-05 03:01:41: ✅ Redis ready (pubsub)
+2026-05-05 03:01:41: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:41: Server is running on port 3000
+2026-05-05 03:01:41: ✅ Redis ready (cache)
+2026-05-05 03:01:41: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:41: ✅ Redis connected (cache)
+2026-05-05 03:01:42: ✅ Redis connected (pubsub)
+2026-05-05 03:01:42: User connected: gmBzXccMjLPI8uZrAAAC
+2026-05-05 03:01:42: User connected: bXQjpXOiKfEseqG8AAAD
+2026-05-05 03:01:42: ✅ Redis connected (cache)
+2026-05-05 03:01:42: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 03:01:42: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:42: ✅ Redis ready (pubsub)
+2026-05-05 03:01:42: ✅ Redis ready (pubsub)
+2026-05-05 03:01:42: ✅ Redis ready (cache)
+2026-05-05 03:01:42: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:42: Server is running on port 3000
+2026-05-05 03:01:42: ✅ Redis connected (pubsub)
+2026-05-05 03:01:42: ✅ Redis ready (cache)
+2026-05-05 03:01:42: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:42: Server is running on port 3000
+2026-05-05 03:01:42: ✅ Redis connected (cache)
+2026-05-05 03:01:42: ✅ Redis connected (pubsub)
+2026-05-05 03:01:42: ✅ Redis connected (cache)
+2026-05-05 03:01:42: ✅ Redis connected (pubsub)
+2026-05-05 03:01:42: ✅ Redis connected (pubsub)
+2026-05-05 03:01:42: ✅ Redis connected (cache)
+2026-05-05 03:01:42: ✅ Redis connected (pubsub)
+2026-05-05 03:01:42: ✅ Redis connected (cache)
+2026-05-05 03:01:42: ✅ Redis ready (pubsub)
+2026-05-05 03:01:42: ✅ Redis ready (cache)
+2026-05-05 03:01:42: ✅ Redis connected (cache)
+2026-05-05 03:01:42: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:42: ✅ Redis ready (pubsub)
+2026-05-05 03:01:42: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:42: Server is running on port 3000
+2026-05-05 03:01:42: ✅ Redis connected (cache)
+2026-05-05 03:01:42: ✅ Redis connected (pubsub)
+2026-05-05 03:01:42: ✅ Redis connected (cache)
+2026-05-05 03:01:42: ✅ Redis connected (pubsub)
+2026-05-05 03:01:42: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:42: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:43: ✅ Redis ready (cache)
+2026-05-05 03:01:43: ✅ Redis ready (pubsub)
+2026-05-05 03:01:43: ✅ Redis ready (cache)
+2026-05-05 03:01:43: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:43: Server is running on port 3000
+2026-05-05 03:01:43: ✅ Redis ready (pubsub)
+2026-05-05 03:01:43: ✅ Redis ready (pubsub)
+2026-05-05 03:01:43: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:43: Server is running on port 3000
+2026-05-05 03:01:43: ✅ Redis ready (cache)
+2026-05-05 03:01:43: ✅ Redis ready (pubsub)
+2026-05-05 03:01:43: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:43: Server is running on port 3000
+2026-05-05 03:01:43: ✅ Redis ready (cache)
+2026-05-05 03:01:43: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:43: Server is running on port 3000
+2026-05-05 03:01:43: ✅ Redis connected (cache)
+2026-05-05 03:01:43: ✅ Redis connected (pubsub)
+2026-05-05 03:01:43: ✅ Redis ready (cache)
+2026-05-05 03:01:43: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:43: Server is running on port 3000
+2026-05-05 03:01:43: ✅ Redis ready (pubsub)
+2026-05-05 03:01:43: ✅ Redis ready (cache)
+2026-05-05 03:01:43: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:43: Server is running on port 3000
+2026-05-05 03:01:43: ✅ Redis ready (pubsub)
+2026-05-05 03:01:43: ✅ Redis ready (cache)
+2026-05-05 03:01:43: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:43: Server is running on port 3000
+2026-05-05 03:01:43: ✅ Redis ready (cache)
+2026-05-05 03:01:43: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:43: Server is running on port 3000
+2026-05-05 03:01:43: ✅ Redis ready (pubsub)
+2026-05-05 03:01:43: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:01:43: Server is running on port 3000
+2026-05-05 03:01:43: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:43: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:44: User connected: LbId1VoVJgpFw5PCAAAB
+2026-05-05 03:01:44: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:44: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:45: ✅ MongoDB Atlas Connected
+2026-05-05 03:01:46: User connected: M0F1yL9kOC5bE9oEAAAF
+2026-05-05 03:01:48: User connected: HVlRIGPvTpCtTCnpAAAD
+2026-05-05 03:01:49: User connected: kOsuECEaYaI8zBS9AAAH
+2026-05-05 03:01:51: User connected: JdxONQqnxqWz3AwwAAAF
+2026-05-05 03:01:52: User connected: c09bCf4eFGtt5V5-AAAJ
+2026-05-05 03:01:52: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:01:53: User connected: kwifO0de-NM8qIpNAAAH
+2026-05-05 03:01:54: User connected: oF4AbHSzOCpBf4vvAAAL
+2026-05-05 03:01:54: User disconnected: gmBzXccMjLPI8uZrAAAC
+2026-05-05 03:01:55: User connected: acYeZRnOor9zZ_rjAAAB
+2026-05-05 03:01:56: User connected: e9U89ziTT3mw2fPlAAAJ
+2026-05-05 03:01:56: User connected: le-U259WiWfXxb44AAAB
+2026-05-05 03:01:58: User connected: NFVgeHUM3UfmGbDUAAAD
+2026-05-05 03:01:58: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 03:01:58: User connected: IHBBoliDOJ1TMftbAAAN
+2026-05-05 03:01:59: User connected: sd1yt5_ETzsTmu5JAAAL
+2026-05-05 03:02:00: User connected: IwqzvICT8Pa2KjuOAAAP
+2026-05-05 03:02:02: User connected: dxltBlTaczpdCzarAAAN
+2026-05-05 03:02:04: User connected: i9YnhuFulH1MDxLGAAAR
+2026-05-05 03:02:04: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:02:05: User connected: ieHDBRKvh_7vNGQiAAAP
+2026-05-05 03:02:06: User connected: 3mcrgslOouvJvjlCAAAF
+2026-05-05 03:02:07: User connected: 65ajpzDFGAClr2dKAAAT
+2026-05-05 03:02:08: User connected: iYQlLz4FZurgAL1sAAAH
+2026-05-05 03:02:10: User connected: zzB_1vvmnd0tEA9DAAAV
+2026-05-05 03:02:12: User connected: abaUw2Ce8tLDZtbeAAAD
+2026-05-05 03:02:13: User connected: AW-ki9pmUC0YO3xnAAAJ
+2026-05-05 03:02:15: User connected: Y4K8E1p_IwkcozEfAAAF
+2026-05-05 03:02:17: User connected: grf76lSyOqehyzB4AAAL
+2026-05-05 03:02:18: User connected: lojeN4XsYQHwUOB1AAAH
+2026-05-05 03:02:18: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:02:20: User connected: bt70IQewFOeVYzhyAAAX
+2026-05-05 03:02:21: User connected: z7HCPqFoRZTmgsloAAAN
+2026-05-05 03:02:23: User connected: 7nfdCCj6HqXo8AS1AAAZ
+2026-05-05 03:02:24: User connected: BvWg85FZi6sggIYTAAAP
+2026-05-05 03:02:26: User connected: dzUId1GGo7R7n-RNAAAb
+2026-05-05 03:02:27: User connected: NxiX8yVkriHNYr15AAAR
+2026-05-05 03:02:27: User disconnected: bXQjpXOiKfEseqG8AAAD
+2026-05-05 03:02:29: User connected: tfaPY_iqje33yLxUAAAd
+2026-05-05 03:02:29: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:02:29: User disconnected: LbId1VoVJgpFw5PCAAAB
+2026-05-05 03:02:31: User connected: 1QIIzUjTPXR3EYiyAAAT
+2026-05-05 03:02:31: User disconnected: M0F1yL9kOC5bE9oEAAAF
+2026-05-05 03:02:32: User connected: 5kOKr6ks9JogW3ZOAAAf
+2026-05-05 03:02:33: User disconnected: HVlRIGPvTpCtTCnpAAAD
+2026-05-05 03:02:34: User connected: L_PCc2BPQ-zG-pKMAAAV
+2026-05-05 03:02:34: User disconnected: kOsuECEaYaI8zBS9AAAH
+2026-05-05 03:02:35: User connected: -ekUbDC7h-u7S25oAAAh
+2026-05-05 03:02:36: User connected: dBrNjRLFPruG-_zMAAAX
+2026-05-05 03:02:36: User disconnected: JdxONQqnxqWz3AwwAAAF
+2026-05-05 03:02:37: User disconnected: c09bCf4eFGtt5V5-AAAJ
+2026-05-05 03:02:37: User connected: KPMvixY_tJkURD7RAAAj
+2026-05-05 03:02:37: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:02:38: User connected: OdG-r8mSQVAsXMSrAAAZ
+2026-05-05 03:02:38: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:02:38: User disconnected: kwifO0de-NM8qIpNAAAH
+2026-05-05 03:02:39: User disconnected: oF4AbHSzOCpBf4vvAAAL
+2026-05-05 03:02:40: User disconnected: acYeZRnOor9zZ_rjAAAB
+2026-05-05 03:02:41: User disconnected: e9U89ziTT3mw2fPlAAAJ
+2026-05-05 03:02:41: User disconnected: le-U259WiWfXxb44AAAB
+2026-05-05 03:02:43: User disconnected: IHBBoliDOJ1TMftbAAAN
+2026-05-05 03:02:44: User disconnected: sd1yt5_ETzsTmu5JAAAL
+2026-05-05 03:02:45: User disconnected: IwqzvICT8Pa2KjuOAAAP
+2026-05-05 03:02:47: User disconnected: dxltBlTaczpdCzarAAAN
+2026-05-05 03:02:49: User disconnected: i9YnhuFulH1MDxLGAAAR
+2026-05-05 03:02:50: User disconnected: ieHDBRKvh_7vNGQiAAAP
+2026-05-05 03:02:51: User disconnected: 3mcrgslOouvJvjlCAAAF
+2026-05-05 03:02:52: User disconnected: 65ajpzDFGAClr2dKAAAT
+2026-05-05 03:02:53: User disconnected: iYQlLz4FZurgAL1sAAAH
+2026-05-05 03:02:55: User disconnected: zzB_1vvmnd0tEA9DAAAV
+2026-05-05 03:02:57: User disconnected: abaUw2Ce8tLDZtbeAAAD
+2026-05-05 03:02:58: User disconnected: AW-ki9pmUC0YO3xnAAAJ
+2026-05-05 03:03:00: User disconnected: Y4K8E1p_IwkcozEfAAAF
+2026-05-05 03:03:02: User disconnected: grf76lSyOqehyzB4AAAL
+2026-05-05 03:03:03: User disconnected: lojeN4XsYQHwUOB1AAAH
+2026-05-05 03:03:05: User disconnected: bt70IQewFOeVYzhyAAAX
+2026-05-05 03:03:06: User disconnected: z7HCPqFoRZTmgsloAAAN
+2026-05-05 03:03:08: User disconnected: 7nfdCCj6HqXo8AS1AAAZ
+2026-05-05 03:03:09: User disconnected: BvWg85FZi6sggIYTAAAP
+2026-05-05 03:03:11: User disconnected: dzUId1GGo7R7n-RNAAAb
+2026-05-05 03:03:12: User disconnected: NxiX8yVkriHNYr15AAAR
+2026-05-05 03:03:14: User disconnected: tfaPY_iqje33yLxUAAAd
+2026-05-05 03:03:16: User disconnected: 1QIIzUjTPXR3EYiyAAAT
+2026-05-05 03:03:17: User disconnected: 5kOKr6ks9JogW3ZOAAAf
+2026-05-05 03:03:19: User disconnected: L_PCc2BPQ-zG-pKMAAAV
+2026-05-05 03:03:20: User disconnected: -ekUbDC7h-u7S25oAAAh
+2026-05-05 03:03:21: User disconnected: dBrNjRLFPruG-_zMAAAX
+2026-05-05 03:03:22: User disconnected: KPMvixY_tJkURD7RAAAj
+2026-05-05 03:05:05: User connected: Cur4JJB6g564_miFAAAB
+2026-05-05 03:05:06: User connected: 5U2JyOqPBUHxfSSsAAAC
+2026-05-05 03:05:06: User connected: 9epJCiebttlwYiqmAAAD
+2026-05-05 03:05:06: User disconnected: 5U2JyOqPBUHxfSSsAAAC
+2026-05-05 03:05:07: User connected: PpI-pxLVitvMgbFuAAAF
+2026-05-05 03:05:08: User connected: 2GyhJuIBqAtAsMKSAAAH
+2026-05-05 03:05:08: User connected: t-DHFL_A9klxWZwtAAAD
+2026-05-05 03:05:09: User connected: Yrbh6tYepE7hNb_xAAAF
+2026-05-05 03:05:09: User connected: sTJx6jvypZoZJ3x8AAAJ
+2026-05-05 03:05:09: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 03:05:11: User connected: wrzWurA_uFkZPfffAAAL
+2026-05-05 03:05:12: User connected: pN-3mByuQYSqXhRiAAAH
+2026-05-05 03:05:14: User connected: rPQ1Nqkxe0RaI6A6AAAN
+2026-05-05 03:05:16: User connected: 4uxT6Pe2LpnpP2qYAAAJ
+2026-05-05 03:05:18: User connected: nw8itGi0t7248aPZAAAP
+2026-05-05 03:05:19: User connected: _W0KVkVRXVu630OTAAAL
+2026-05-05 03:05:21: User connected: CHgXjGSz5Ggb6S4SAAAR
+2026-05-05 03:05:23: User connected: Les4As4chmT6rTs8AAAN
+2026-05-05 03:05:24: User connected: e-zBlGTZ5X2cLpHiAAAT
+2026-05-05 03:05:25: User connected: AXQw_3h2mS4NhW6RAAAP
+2026-05-05 03:05:25: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:05:26: User connected: 1CmqAm-W13mE-G9JAAAV
+2026-05-05 03:05:27: User connected: iL2LdU7hKlV_FCVtAAAR
+2026-05-05 03:05:27: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:05:50: User disconnected: Cur4JJB6g564_miFAAAB
+2026-05-05 03:05:51: User disconnected: 9epJCiebttlwYiqmAAAD
+2026-05-05 03:05:52: User disconnected: PpI-pxLVitvMgbFuAAAF
+2026-05-05 03:05:53: User disconnected: t-DHFL_A9klxWZwtAAAD
+2026-05-05 03:05:53: User disconnected: 2GyhJuIBqAtAsMKSAAAH
+2026-05-05 03:05:54: User disconnected: Yrbh6tYepE7hNb_xAAAF
+2026-05-05 03:05:56: User disconnected: wrzWurA_uFkZPfffAAAL
+2026-05-05 03:05:57: User disconnected: pN-3mByuQYSqXhRiAAAH
+2026-05-05 03:05:59: User disconnected: rPQ1Nqkxe0RaI6A6AAAN
+2026-05-05 03:06:00: User connected: WlYjG0-iCRxoay2MAAAT
+2026-05-05 03:06:00: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 03:06:01: User disconnected: 4uxT6Pe2LpnpP2qYAAAJ
+2026-05-05 03:06:03: User disconnected: nw8itGi0t7248aPZAAAP
+2026-05-05 03:06:04: User disconnected: _W0KVkVRXVu630OTAAAL
+2026-05-05 03:06:06: User disconnected: CHgXjGSz5Ggb6S4SAAAR
+2026-05-05 03:06:08: User disconnected: Les4As4chmT6rTs8AAAN
+2026-05-05 03:06:09: User disconnected: e-zBlGTZ5X2cLpHiAAAT
+2026-05-05 03:06:10: User disconnected: AXQw_3h2mS4NhW6RAAAP
+2026-05-05 03:06:11: User disconnected: 1CmqAm-W13mE-G9JAAAV
+2026-05-05 03:06:44: User disconnected: sTJx6jvypZoZJ3x8AAAJ
+2026-05-05 03:09:58: User disconnected: WlYjG0-iCRxoay2MAAAT
+2026-05-05 03:09:59: User connected: bR5SkwzESz3t5JP1AAAX
+2026-05-05 03:09:59: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 03:13:22: Socket bR5SkwzESz3t5JP1AAAX joined conversation 69f912fae15f6b4cffb0c1a0
+2026-05-05 03:13:24: Socket bR5SkwzESz3t5JP1AAAX joined conversation 69f912fae15f6b4cffb0c1a0
+2026-05-05 03:13:29: User disconnected: iL2LdU7hKlV_FCVtAAAR
+2026-05-05 03:13:30: User connected: -SR7YTj7iHaAEyEGAAAZ
+2026-05-05 03:13:30: Online users: [ '69f9083f32e6f7f6c8a24a3b', '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-05-05 03:18:36: [dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-05-05 03:18:37: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-05-05 03:18:37: [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-05-05 03:18:37: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:37: ✅ Redis connected (pubsub)
+2026-05-05 03:18:37: ✅ Redis connected (cache)
+2026-05-05 03:18:37: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:37: ✅ Redis connected (cache)
+2026-05-05 03:18:37: ✅ Redis connected (pubsub)
+2026-05-05 03:18:37: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:38: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:38: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:38: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ Redis ready (pubsub)
+2026-05-05 03:18:38: ✅ Redis ready (cache)
+2026-05-05 03:18:38: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:38: Server is running on port 3000
+2026-05-05 03:18:38: ✅ Redis ready (pubsub)
+2026-05-05 03:18:38: ✅ Redis ready (cache)
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ Redis ready (cache)
+2026-05-05 03:18:38: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:38: Server is running on port 3000
+2026-05-05 03:18:38: User connected: bi_GAMyptqszK52gAAAB
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ Redis ready (cache)
+2026-05-05 03:18:38: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ Redis ready (pubsub)
+2026-05-05 03:18:38: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:38: Server is running on port 3000
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ Redis ready (cache)
+2026-05-05 03:18:38: ✅ Redis ready (pubsub)
+2026-05-05 03:18:38: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:38: Server is running on port 3000
+2026-05-05 03:18:38: ✅ Redis connected (cache)
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:38: ✅ Redis ready (cache)
+2026-05-05 03:18:38: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:38: ✅ Redis ready (pubsub)
+2026-05-05 03:18:38: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:38: Server is running on port 3000
+2026-05-05 03:18:38: ✅ Redis ready (cache)
+2026-05-05 03:18:38: ✅ Redis ready (pubsub)
+2026-05-05 03:18:38: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:38: Server is running on port 3000
+2026-05-05 03:18:38: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:38: ✅ Redis ready (cache)
+2026-05-05 03:18:38: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:38: ✅ Redis ready (pubsub)
+2026-05-05 03:18:38: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:38: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:38: Server is running on port 3000
+2026-05-05 03:18:38: ✅ Redis connected (pubsub)
+2026-05-05 03:18:38: ✅ Redis ready (pubsub)
+2026-05-05 03:18:38: ✅ Redis ready (cache)
+2026-05-05 03:18:38: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:38: Server is running on port 3000
+2026-05-05 03:18:39: ✅ Redis ready (cache)
+2026-05-05 03:18:39: ✅ Redis ready (pubsub)
+2026-05-05 03:18:39: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:39: Server is running on port 3000
+2026-05-05 03:18:39: ✅ Redis ready (pubsub)
+2026-05-05 03:18:39: ✅ Redis ready (cache)
+2026-05-05 03:18:39: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:39: Server is running on port 3000
+2026-05-05 03:18:39: ✅ Redis ready (cache)
+2026-05-05 03:18:39: ✅ Redis ready (pubsub)
+2026-05-05 03:18:39: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:39: Server is running on port 3000
+2026-05-05 03:18:39: User connected: Q1sJNQS0Sua11Q5oAAAB
+2026-05-05 03:18:39: ✅ Redis ready (pubsub)
+2026-05-05 03:18:39: ✅ Socket.IO using Redis adapter (cluster-ready)
+2026-05-05 03:18:39: Server is running on port 3000
+2026-05-05 03:18:39: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:39: ✅ MongoDB Atlas Connected
+2026-05-05 03:18:40: User connected: K9jv-wH3mF223Z0DAAAB
+2026-05-05 03:18:40: User connected: RZ0zNfwJ4Tyh6RYYAAAB
+2026-05-05 03:18:40: User disconnected: K9jv-wH3mF223Z0DAAAB
+2026-05-05 03:18:42: User connected: ZCEXRIskej41-8M1AAAD
+2026-05-05 03:18:42: User connected: FfcjoCS0Xa7CfJ7xAAAD
+2026-05-05 03:18:43: User connected: T5ZNI3yPZFyeavTMAAAD
+2026-05-05 03:18:43: User connected: z4QMY-yzPDZihu22AAAD
+2026-05-05 03:18:44: User connected: YnOAbAhlvuvKyULlAAAF
+2026-05-05 03:18:45: User connected: OjWMpQEy7NQ18B-0AAAF
+2026-05-05 03:18:46: User connected: oedbM44poA_x2vqpAAAF
+2026-05-05 03:18:47: User connected: yvZsYTdlOSNaXGTSAAAF
+2026-05-05 03:18:47: Online users: [ '69f902194f721b86e2b9cdf1' ]
+2026-05-05 03:18:48: User connected: olhfakmzA2rxfZ1EAAAH
+2026-05-05 03:18:49: User connected: smNrr-aVNs4qnyzwAAAH
+2026-05-05 03:18:49: Online users: [ '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 03:19:00: User disconnected: smNrr-aVNs4qnyzwAAAH
+2026-05-05 03:19:00: User connected: UnDi_jUuObcvoP4gAAAH
+2026-05-05 03:19:00: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 03:19:03: Socket UnDi_jUuObcvoP4gAAAH joined conversation 69f912fae15f6b4cffb0c1a0
+2026-05-05 03:19:23: User disconnected: bi_GAMyptqszK52gAAAB
+2026-05-05 03:19:24: User disconnected: Q1sJNQS0Sua11Q5oAAAB
+2026-05-05 03:19:25: User disconnected: RZ0zNfwJ4Tyh6RYYAAAB
+2026-05-05 03:19:27: User disconnected: FfcjoCS0Xa7CfJ7xAAAD
+2026-05-05 03:19:27: User disconnected: ZCEXRIskej41-8M1AAAD
+2026-05-05 03:19:28: User disconnected: T5ZNI3yPZFyeavTMAAAD
+2026-05-05 03:19:28: User disconnected: z4QMY-yzPDZihu22AAAD
+2026-05-05 03:19:29: User disconnected: YnOAbAhlvuvKyULlAAAF
+2026-05-05 03:19:30: User disconnected: OjWMpQEy7NQ18B-0AAAF
+2026-05-05 03:19:31: User disconnected: oedbM44poA_x2vqpAAAF
+2026-05-05 03:19:33: User disconnected: olhfakmzA2rxfZ1EAAAH
+2026-05-05 03:20:32: User disconnected: UnDi_jUuObcvoP4gAAAH
+2026-05-05 03:20:33: User connected: Pzr3lEkMovoT5iGSAAAJ
+2026-05-05 03:20:33: Online users: [ '69f902194f721b86e2b9cdf1', '69f9083f32e6f7f6c8a24a3b' ]
+2026-05-05 03:21:02: User disconnected: Pzr3lEkMovoT5iGSAAAJ
+2026-05-05 03:21:07: User disconnected: yvZsYTdlOSNaXGTSAAAF
